@@ -1,0 +1,1402 @@
+@import '../../../bootstrap/less/mixins';
+
+// Border Radius
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+// Background sizing
+.background-size(@size) {
+  -webkit-background-size: @size;
+  -moz-background-size: @size;
+  -o-background-size: @size;
+  background-size: @size;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face{
+	font-family: "Carnivalee Freakshow";
+	src: url("../css/font/Carnevalee_Freakshow.eot?") format("eot"), url("../css/font/Carnevalee_Freakshow.woff") format("woff"), url("../css/font/Carnevalee_Freakshow.ttf") format("truetype"), url("../css/font/Carnevalee_Freakshow.svg#CarnivaleeFreakshow") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+@base-url: "../../../flavours/badassbbq/images";
+
+
+/* *************** */
+/*  GENERAL STYLES */
+/* *************** */
+/* START EDIT HERE */
+
+body{
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  color:#584a41;
+  font-size: 14px;
+  line-height: 24px;
+  background: transparent url("@{base-url}/bg-2.jpg") repeat-y top center;
+}
+
+/* headers */
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  color: #6b0f09;
+}
+.blog-sidebar .widget > h3 {
+  font-family: "Carnivalee Freakshow";
+  color: #584A41;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+
+h4{
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+p{
+  text-shadow:none;
+  color:#584a41;
+
+  &.bigger{
+    font-size: 16px;
+    line-height: 21px;
+    color:#584a41;
+  }
+  &.large{
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  a{
+    color: #B63B33;
+  }
+}
+.big{
+  color:#fcf1e0;
+  font-family: "Carnivalee Freakshow";
+  text-transform: uppercase;
+  text-align:center;
+}
+
+
+.hdr1{
+  width: 817px;
+  min-height: 63px;
+  padding-top:7px;
+  background: transparent url("@{base-url}/hdr-1.png") no-repeat top center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight:400;
+  color:#fcf1e0;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 34px;
+  line-height: 34px;
+  text-transform: none;
+  margin-bottom:50px;
+}
+
+.hdr1.type2 {
+  width:656px;
+  height:137px;
+  background: transparent url("@{base-url}/hdr-1-a.png") no-repeat top center;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 32px;
+  line-height: 32px;
+  padding-left:130px;
+  padding-right:150px;
+  padding-top: 11px;
+}
+
+#menu .hdr1.type2 {
+  position: relative;
+  top: -72px;
+  margin-bottom: -120px;
+  pointer-events: none;
+}
+
+.flexFull .hdr3 {
+  font-size:20px;
+  line-height:24px;
+  max-width:800px;
+  margin:5px auto 15px auto;
+}
+.flexFull .hdr2 {
+  font-size:30px;
+  line-height:30px;
+}
+
+.hdr2{
+  font-family: "Carnivalee Freakshow";
+  color: #6b0f09;
+  font-size: 35px;
+  line-height: 35px;
+  text-shadow:none;
+
+  &.special{
+    font-family: "Carnivalee Freakshow";
+    font-weight:400;
+    color: #6b0f09;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+}
+.hdr3{
+  color: #6b0f09;
+  text-align: center;
+  font-size: 25px;
+  line-height: 26px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  text-transform: none;
+  text-shadow:none;
+
+  a{
+    color: #b63b33;
+  }
+}
+
+.hdr4{
+  width: 657px;
+  min-height: 63px;
+  padding-top:7px;
+  color:#fcf1e0;
+  background: transparent url("@{base-url}/hdr-4.png") no-repeat top center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  text-transform: none;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  margin-bottom:40px;
+}
+
+.hdr5{
+  color: #6b0f09;
+  font-family: 'Bree Serif', serif;
+  font-weight:400;
+  font-size: 30px;
+  text-transform: none;
+
+  span{
+    border-bottom: 0;
+  }
+}
+
+
+.hdr6 {
+  width: 571px;
+  padding: 7px 40px 0 40px;
+  margin: 0 auto 20px auto;
+  min-height: 199px;
+  background: transparent url("@{base-url}/hdr-6.png") no-repeat top center;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  color: #fff;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: none;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+
+.mapWithOverlay {
+  position:relative;
+  // 571 width
+  .hdr6 {
+    top:70px;
+    left:50%;
+    margin-left:-285px;
+    pointer-events:none;
+  }
+}
+
+
+// buttons
+
+// Core styles
+.btn{
+  padding-top: 11px;
+  padding-bottom: 13px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: 'Bree Serif', serif;
+  text-transform: none;
+  .box-shadow(0px -1px 1px 0px rgba(0, 0, 0, 0.25));
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+
+  &:focus{
+    outline: none;
+  }
+
+  &:active,
+  &.active{
+    outline: 0;
+    background-image: none;
+    .box-shadow(inset 0 3px 5px rgba(0, 0, 0, .125));
+    position: relative;
+    top: 1px;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] &{
+    cursor: not-allowed;
+    pointer-events: none; // Future-proof disabling of clicks
+    .opacity(.65);
+    .box-shadow(none);
+  }
+}
+
+.btn-default{
+  #gradient > .vertical(#390000; #5f0000);
+  color: #fff;
+  border: none;
+  .box-shadow(~"0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;");
+
+  &:active,
+  &.active,
+  &:hover,
+  &:focus {
+    #gradient > .vertical(#390000; #5f0000);
+    color: #fff;
+    border: none;
+    .box-shadow(~"0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;");
+  }
+}
+
+.btn.btn-primary{
+  font-family: "Carnivalee Freakshow";
+
+  #gradient > .vertical(#390000; #5e0000);
+  color: #fcf1e0;
+  border: none;
+  .box-shadow(~"0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;");
+
+  &:active,
+  &.active,
+  &:hover,
+  &:focus {
+    #gradient > .vertical(#390000; #5e0000);
+    color: #fff;
+    border: none;
+    .box-shadow(~"0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;");
+  }
+
+}
+.btn-sm{
+  padding: 5px 12px 7px 12px;
+  font-size: 25px;
+  line-height: 25px;
+  .border-radius(10px);
+}
+
+.priceHeader{
+  background: transparent url("@{base-url}/priceheader-bg.png") repeat-x center top;
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+  padding-top:10px;
+
+  &:before{
+    content: " ";
+    background: transparent url("@{base-url}/priceheader-lft.png") no-repeat top center;
+  }
+  &:after{
+    content: " ";
+    background: transparent url("@{base-url}/priceheader-rt.png") no-repeat top center;
+  }
+  .lft{
+    float: left;
+    min-width: 210px;
+  }
+  .rt{
+    float: left;
+    min-width: 210px;
+  }
+
+  .price{
+    width: 112px;
+    height: 112px;
+    background: transparent url("@{base-url}/priceheader-price.png") no-repeat center top;
+    float: left;
+    position: relative;
+    margin-top: -40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .el_1{
+      font-family: 'Kaushan Script', cursive;
+    }
+    .el_2{
+      font-family: 'Kaushan Script', cursive;
+      font-size:22px;
+      letter-spacing: -0.1em;
+    }
+    .el_3{
+      font-family: 'Kaushan Script', cursive;
+      font-size:39px;
+      line-height:39px;
+      letter-spacing: -0.1em;
+    }
+    .el_4 {
+      font-family: 'Kaushan Script', cursive;
+      display:inline-block;
+      font-size:22px;
+      width: 31px;
+    }
+  }
+}
+
+hr.line1{
+  padding: 20px 0 30px 0;
+  margin: 0;
+  height: 30px;
+  background: transparent url("@{base-url}/line-1.png") no-repeat center 20px;
+}
+
+/* main menu */
+
+.is-sticky .full-sticky-menu{
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+@media (min-width: 990px){
+  .is-sticky .full-sticky-menu .inner:before {
+    display:none;
+    height:0;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .navbar-default .navbar-collapse {
+    background: transparent url("@{base-url}/bg-1.jpg") repeat-y top center;
+    z-index: 2;
+    position: relative;
+  }
+  .navbar-header .navbar-brand {
+    max-width: 170px !important;
+  }
+  #menu .hdr1.type2 {
+    top:0;
+    margin-bottom:0;
+    padding:20px;
+    height:auto;
+  }
+
+  .hdr1,
+  .hdr4 {
+    color:#6B0F09 !important;
+  }
+  .priceHeader .lft, .priceHeader .rt {
+    color:#584A41 !important;
+  }
+  .small-brand {
+    margin-bottom: 5px !important;
+    margin-top: 0px !important;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .flexslider.flexFade .descArea * {
+    color: #6B0F09 !important;
+    text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14) !important;
+  }
+}
+
+
+.navbar-header{
+  .navbar-brand{
+    padding-top:0;
+  }
+}
+
+
+.navbar-default .navbar-nav{
+  float: none;
+
+  > li{
+    margin: 0 15px 0 0;
+    > a{
+      font-family: "Carnivalee Freakshow";
+      color:#6b0f09;
+      padding: 7px 14px 10px 14px;
+      text-transform: none;
+      font-size: 30px;
+      line-height: 30px;
+      .border-radius(3px);
+
+      &:hover {
+        color:#6b0f09;
+      }
+    }
+  }
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+  .box-shadow(~"0px 3px 10px 0px rgba(38, 26, 12, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;");
+  #gradient > .vertical(#390000; #5e0000);
+  color: #fff;
+}
+
+
+.navbar-default{
+
+  .inner{
+    background: transparent url("@{base-url}/menu-bg.png") repeat-x center top;
+    height: 247px;
+    border: 0;
+
+    &:before{
+      content: " ";
+      height: 51px;
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      background: transparent url("@{base-url}/menu-bg-top.png") repeat-x center top;
+    }
+
+    .btm{
+      width: 100%;
+      height: 25px;
+      display: block;
+      background: transparent url("@{base-url}/menu-bg.png") repeat-x center -246px;
+      pointer-events: none;
+      position: absolute;
+      bottom: -24px;
+    }
+  }
+}
+
+.address{
+  font-family: "Carnivalee Freakshow";
+  font-size: 21px;
+  line-height: 23px;
+  color: #eee1ce;
+  text-shadow:none;
+  padding-top:10px;
+}
+.blackboard {
+  background: transparent url("@{base-url}/blackboard-bg.jpg") no-repeat top center;
+  .background-size(cover);
+  padding-right:20px;
+}
+.tweet_list{
+
+  li{
+    background: transparent url("@{base-url}/twitter-ico.png") no-repeat left 6px;
+    padding-left:30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #b63b33;
+    margin-bottom:15px;
+
+    a{
+      color: #fcf1e0;
+    }
+    .tweet_time{
+      background: transparent url("@{base-url}/line-twitter.png") repeat-x center bottom;
+      padding-bottom:15px;
+
+      a{
+        color: #a29888;
+      }
+    }
+  }
+  li:last-child .tweet_time {
+    background:none;
+  }
+}
+
+.customMarker{
+
+  i{
+    background: transparent url("@{base-url}/marker-icon.png") no-repeat center bottom;
+  }
+
+  span{
+    #gradient > .vertical(#380000; #5a0000);
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+    line-height: 21px;
+    .box-shadow(0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset);
+    text-shadow:none;
+
+    &:before{
+      border-color: #5a0000 transparent transparent transparent;
+    }
+  }
+}
+
+/* socials links */
+
+.smallSocials{
+
+  li{
+    background: transparent url("@{base-url}/smallsocial-bg.png") no-repeat 0 0;
+
+    a img {
+      display:none;
+      .opacity(0);
+    }
+  }
+  li.fb {background-position: 0 0;}
+  li.tw {background-position: -54px 0;}
+  li.gg {background-position: -106px 0;}
+  li.rss {background-position: -158px 0;}
+
+  li.fb:hover {background-position: 0 -32px;}
+  li.tw:hover {background-position: -54px -32px;}
+  li.gg:hover {background-position: -106px -32px;}
+  li.rss:hover {background-position: -158px -32px;}
+}
+
+.bigSocials{
+
+  li{
+    background: transparent url("@{base-url}/social-bg.png") no-repeat 0 0;
+
+    a img {
+      display:none;
+      .opacity(0);
+    }
+  }
+  li.fb {background-position: 0 0;}
+  li.tw {background-position: -70px 0;}
+  li.gg {background-position: -142px 0;}
+  li.rss {background-position: -212px 0;}
+
+  li.fb:hover {background-position: 0 -40px;}
+  li.tw:hover {background-position: -70px -40px;}
+  li.gg:hover {background-position: -142px -40px;}
+  li.rss:hover {background-position: -212px -40px;}
+}
+
+
+.phoneIcon,
+.locationIcon {
+  background: transparent url("@{base-url}/mobile-flag.png") no-repeat 0 0;
+}
+
+.phoneIcon {
+  background-position:-287px 0;
+}
+
+
+.section{
+  > .inner{
+    padding-bottom:85px;
+  }
+}
+
+.bg-1{
+  background: transparent url("@{base-url}/bg-1.jpg") repeat-y top center;
+}
+.bg-2{
+  background: transparent url("@{base-url}/bg-2.jpg") repeat-y top center;
+}
+
+.bg-1.topOrnament,
+.bg-2.topOrnament{
+  padding-top: 30px;
+
+  > .inner{
+    padding-top: 0;
+  }
+}
+.bg-1.topOrnament:before,
+.bg-2.topOrnament:before{
+  content: " ";
+  display: block;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  top: -85px;
+  background: transparent url("@{base-url}/bg-1-top.png") no-repeat top center;
+}
+.bg-2.topOrnament:before {
+  background: transparent url("@{base-url}/bg-2-top.png") no-repeat top center;
+}
+
+.flexslider.flexFull.type2 {
+
+  .flex-direction-nav a{
+    background: transparent url("@{base-url}/slider2-controls.png") no-repeat left top;
+
+    &:hover{
+      background-position: left -145px;
+    }
+
+    &:before{
+      display: none;
+      height: 0;
+    }
+  }
+  .flex-direction-nav .flex-next{
+    background-position: -167px 0;
+
+    &:hover{
+      background-position: -167px -145px;
+    }
+  }
+}
+
+
+.flexslider.flexFade{
+  .descArea{
+    background: transparent url("@{base-url}/circle-flex.png") no-repeat top center;
+
+    h4 {
+      font-family: "Carnivalee Freakshow";
+      font-weight:400;
+      text-transform: uppercase;
+      font-size:40px;
+      line-height:40px;
+      color:#fcf1e0;
+      text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+    }
+    h5 {
+      color:#fcf1e0;
+      font-family: 'Bree Serif', serif;
+      font-size:25px;
+      line-height:28px;
+      text-transform: none;
+      text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+    }
+    p {
+      color:#fcf1e0;
+      text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+    }
+  }
+  .price{
+    font-family: "Carnivalee Freakshow";
+    font-size: 90px;
+    line-height: 70px;
+    text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+
+    em{
+      font-family: "Carnivalee Freakshow";
+      font-size: 54px;
+      line-height: 54px;
+      top: -0.5em;
+    }
+    span{
+      font-family: "Carnivalee Freakshow";
+      font-size: 54px;
+      line-height: 54px;
+      top: -0.5em;
+      padding-left:4px;
+    }
+  }
+}
+.hdr7 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight:400;
+  font-size:38px;
+  line-height:38px;
+  color:#6b0f09;
+  text-transform: none;
+}
+
+
+.prodBox{
+  font-family: 'Bree Serif', serif;
+  color: #877e7e;
+  font-size: 14px;
+  line-height: 18px;
+
+  p{
+    font-family: 'Bree Serif', serif;
+    color: #877e7e;
+    text-shadow:none;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .info{
+    display: block;
+    padding: 15px 0;
+    color: #676464;
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  h4{
+    color:#584a41;
+    font-family: "Carnivalee Freakshow";
+    font-size:26px;
+    line-height:29px;
+    text-transform: uppercase;
+  }
+  .price{
+    color: #fcf1e0;
+    font-family: "Carnivalee Freakshow";
+    text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+    font-size: 60px;
+    line-height: 44px;
+    position: absolute;
+    top: -52px;
+    left: 50%;
+    margin-left: -55px;
+    background: transparent url("@{base-url}/prodbox-price.png") no-repeat top center;
+    border: none;
+    .border-radius(none);
+    width: 110px;
+    height: 110px;
+
+    small{
+      font-family: "Carnivalee Freakshow";
+      font-size:24px;
+    }
+
+    em{
+      font-style: normal;
+      font-family: "Carnivalee Freakshow";
+      font-size:30px;
+    }
+    span{
+      font-family: "Carnivalee Freakshow";
+      padding-left: 3px;
+      font-size:30px;
+    }
+  }
+}
+
+
+.menuBox{
+
+  .top{
+    background: transparent url("@{base-url}/menubox-top.png") no-repeat center 1px;
+    padding: 28px 0 0 0;
+    text-transform: uppercase;
+    color: #fcf1e0;
+    font-family: "Carnivalee Freakshow";
+    font-weight:400;
+    font-size: 30px;
+    line-height: 30px;
+
+    span{
+      padding-top: 10px;
+    }
+  }
+  .inner{
+
+    p{
+      color: #584a41;
+      font-family: 'Bree Serif', serif;
+    }
+    .title{
+      color: #584a41;
+      font-family: 'Bree Serif', serif;
+    }
+    .price{
+      font-family: "Carnivalee Freakshow";
+      color: #6b0f09;
+      font-size: 40px;
+      line-height: 30px;
+
+      em{
+        font-style: normal;
+        font-family: "Carnivalee Freakshow";
+        font-size:24px;
+      }
+      span{
+        font-family: "Carnivalee Freakshow";
+        font-size:24px;
+      }
+    }
+  }
+
+  hr{
+    background: transparent url("@{base-url}/line-hr2.png") repeat-x center 10px;
+    height: 1px;
+    padding: 10px 0;
+  }
+}
+
+.eventBox{
+  background: #600000;
+  border: none;
+  .box-shadow(none);
+
+  .hdr2 {
+    font-size:40px;
+    line-height:40px;
+    color: #fcf1e0;
+    text-shadow:none;
+  }
+
+  hr{
+    height: 1px;
+    background: #be9082;
+    .box-shadow(0px 1px 1px 0px rgba(0, 0, 0, 0.1));
+  }
+
+  .date{
+    padding-top:19px;
+    background: #c5b8a3;
+    font-family: "Carnivalee Freakshow";
+    color: #fff;
+    font-size:34px;
+    line-height:34px;
+    text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+
+    span{
+      font-family: "Carnivalee Freakshow";
+      font-size:70px;
+    }
+  }
+  .place{
+    font-family: 'Bree Serif', serif;
+    color: #fcf1e0;
+    font-size: 25px;
+    line-height: 25px;
+    text-shadow:none;
+    text-transform:none;
+  }
+  .time{
+    font-family: "Carnivalee Freakshow";
+    color: #fcf1e0;
+    font-size:45px;
+    line-height:45px;
+    text-shadow:none;
+    text-transform: none;
+  }
+}
+
+.mapit,
+.shareit{
+  font-family: "Carnivalee Freakshow";
+  font-size:30px;
+  line-height:30px;
+  text-transform: uppercase;
+  color: #fcf1e0;
+
+  &:hover{
+    color: #fcf1e0;
+  }
+
+  i{
+    background: transparent url("@{base-url}/marker-share.png") no-repeat 0 0;
+  }
+}
+
+.shareit i{
+  background-position: 0 -124px;
+}
+
+
+.easyBox .mapit,
+.easyBox .shareit,
+.mapit.type2,
+.shareit.type2 {
+  color:#6b0f09;
+
+  &:hover {
+    color:#6b0f09;
+  }
+
+  i {
+    background: transparent url("@{base-url}/marker-share2.png") no-repeat 0 0;
+  }
+}
+
+.easyBox{
+  background: #f4f2ea;
+  border: none;
+  .box-shadow(none);
+}
+
+.bx-wrapper .bx-prev{
+  background: transparent url("@{base-url}/controls-bxslider.png") no-repeat 0 0;
+  left: 85px;
+
+  &:hover{
+    background-position: 0 -54px;
+  }
+}
+.bx-wrapper .bx-next{
+  background: transparent url("@{base-url}/controls-bxslider.png") no-repeat -94px 0;
+  right: 85px;
+
+  &:hover{
+    background-position: -94px -54px;
+  }
+}
+
+// galleryBox
+.galleryBox{
+
+  .top{
+    font-size:28px;
+    line-height:28px;
+    background: transparent url("@{base-url}/gallerybox-top.png") no-repeat center 1px;
+    text-transform: uppercase;
+    font-family: "Carnivalee Freakshow";
+    padding-top:67px;
+    color:#fcf1e0;
+  }
+}
+
+.galleryContainer li a div{
+  background: #6b0f09;
+  background: rgba(107, 15, 9, 0.62);
+}
+.galleryContainer li a div span{
+  text-transform: none;
+  font-family: 'Bree Serif', serif;
+  text-shadow:none;
+  color: #fff;
+  font-size:25px;
+}
+
+
+// forms
+
+.form-control{
+  font-size: 16px;
+  line-height: 19px;
+  color: #8d7e74;
+  background-color: #eae7dd;
+  border: 1px solid transparent;
+  font-family: 'Bree Serif', serif;
+  .placeholder(#8d7e74);
+  .form-control-focus(#ccc);
+}
+
+
+form label{
+  color: #6b0f09;
+  font-size: 23px;
+  line-height: 23px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  text-transform: none;
+  margin-bottom:15px;
+  text-shadow:none;
+}
+
+
+// footer
+
+footer{
+  background: transparent url("@{base-url}/footer-bg-repeat.jpg") repeat top center;
+
+  .googleMap {
+    margin-top:10px;
+  }
+
+  .row > div:last-child h4 {
+    text-align:center;
+  }
+  .row > div h4:first-child {
+    margin-top:70px;
+  }
+
+  h4{
+    color: #fcf1e0;
+    font-size:30px;
+    line-height:30px;
+    text-transform: uppercase;
+    font-family: "Carnivalee Freakshow";
+  }
+  p{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    line-height: 16px;
+    color:#fcf1e0;
+  }
+  hr{
+    background: transparent url("@{base-url}/hr-contact.png") repeat-x left 20px;
+  }
+  .copyright{
+    color: #fcf1e0;
+    font-family: 'Bree Serif', serif;
+
+    a{
+      color: #b63b33;
+    }
+  }
+
+  .tweet_list{
+
+    li{
+      background: transparent url("@{base-url}/hr-contact.png") repeat-x left top;
+
+      &:before{
+        background: transparent url("@{base-url}/twitter-ico.png") no-repeat top center;
+        top:23px;
+      }
+
+      a{
+        color: #fcf1e0;
+      }
+      .tweet_time{
+        background:none;
+        padding-bottom:0;
+
+        a{
+          color: #a29888;
+        }
+      }
+    }
+    li:first-child{
+      background: none;
+      padding-top: 0;
+
+      &:before{
+        top: 6px;
+      }
+    }
+  }
+
+  &:before{
+    height: 314px;
+    background: transparent url("@{base-url}/footer-bg.jpg") repeat-x center top;
+  }
+
+  #toTop{
+    width: 109px;
+    height: 57px;
+    background: transparent url("@{base-url}/totop-btn.png") no-repeat center top;
+    margin-left: -55px;
+  }
+}
+
+
+.navbar-default .navbar-nav.text-center > li {
+  margin-left:5px;
+  margin-right:5px;
+  > a {
+    font-size:28px;
+    line-height:28px;
+  }
+}
+
+
+.personBox .ptitle {
+  font-family: "Carnivalee Freakshow";
+  background:#600000;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 28px;
+  line-height: 26px;
+}
+
+.personBox .pname {
+  color:#6B0F09;
+  font-family: 'Bree Serif', serif;
+  font-size:20px;
+  line-height:21px;
+}
+hr.line-separator {
+  border:0;
+}
+
+.buttonBox {
+  background: transparent url("@{base-url}/buttonbox-bg.png") no-repeat center top;
+  width:821px;
+  min-height:79px;
+  padding-top:11px;
+  font-family: 'Bree Serif', serif;
+  color:#fff;
+
+  p {
+    margin-top:3px;
+    color:#fff;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+
+.nav-tabs.type2 + .tab-content * {
+  color:#584A41;
+}
+.nav-tabs.type2 > li.active > a, .nav-tabs.type2 > li.active > a:hover, .nav-tabs.type2 > li.active > a:focus {
+  color:#584A41;
+}
+.nav-tabs.type2 > li > a {
+  font-family: 'Bree Serif', serif;
+  color:#584A41;
+}
+.nav-tabs.type2 > li > a:hover {
+  color:#584A41;
+}
+.nav-tabs.type2.dark_ver + .tab-content {
+  background: #600000;
+}
+.nav-tabs.type2.dark_ver > li > a {
+  background: #560101;
+}
+.nav-tabs.type2.dark_ver > li + li + li > a {
+  background:#4f0000;
+}
+.nav-tabs.type2.dark_ver > li > a:hover {
+  background: #600000;
+  color:#fff;
+}
+.nav-tabs.type2.dark_ver > li.active > a, .nav-tabs.type2.dark_ver > li.active > a:hover, .nav-tabs.type2.dark_ver > li.active > a:focus {
+  background: #600000;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  color: #600000;
+}
+.panel-default > .panel-heading a {
+  color: #600000;
+  font-family: 'Bree Serif', serif;
+}
+.panel-default > .panel-heading a:before {
+  color: #600000;
+}
+.box_text .inner {
+  background:#6b0f09;
+  color:#fcf1e0;
+  p {
+    color:#fcf1e0;
+  }
+}
+
+.box_text .ribbon_icon {
+  color:#480000;
+}
+.highlight.type1,
+.highlight.type2 {
+  color:#fff;
+}
+
+.testimonial.dark_ver .inner {
+  background:#600000;
+  color: #fff;
+}
+.testimonial.dark_ver .inner p {
+  color: #fff;
+}
+.testimonial.dark_ver .inner:after {
+  border-color: #600000 transparent transparent transparent;
+}
+.blog-sidebar .widget_archive h3 + ul > li, .blog-sidebar .widget_categories h3 + ul > li, .blog-sidebar .widget_recent_entries h3 + ul > li, .blog-sidebar .widget_recent_comments h3 + ul > li, .blog-sidebar .widget_categories h3 + ul > li, .blog-sidebar .widget_meta h3 + ul > li, .blog-sidebar .widget_pages h3 + ul > li, .blog-sidebar .widget_rss h3 + ul > li, .blog-sidebar .widget_links h3 + ul > li {
+  color:#6B0F09;
+  font-family: 'Bree Serif', serif;
+}
+.blog-sidebar .widget_archive h3 + ul > li.active, .blog-sidebar .widget_categories h3 + ul > li.active, .blog-sidebar .widget_recent_entries h3 + ul > li.active, .blog-sidebar .widget_recent_comments h3 + ul > li.active, .blog-sidebar .widget_categories h3 + ul > li.active, .blog-sidebar .widget_meta h3 + ul > li.active, .blog-sidebar .widget_pages h3 + ul > li.active, .blog-sidebar .widget_rss h3 + ul > li.active, .blog-sidebar .widget_links h3 + ul > li.active {
+  color:#B63B33;
+}
+.blog-main .meta_box .meta_comments em {
+  color:#fff;
+}
+
+.blog-sidebar .widget .tab-content ul > li {
+  color:#6B0F09;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background:#C5B8A3;
+  color:#6B0F09;
+}
+.nav-tabs > li > a:hover {
+  background:#C5B8A3;
+  color:#6B0F09;
+}
+.nav-tabs > li > a {
+  background:#6B0F09;
+}
+
+.blog-main .meta_box {
+  color:#6B0F09;
+}
+.blog-main .meta_box > span:before {
+  background:#6B0F09;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+  background: #584A41;
+  border: 1px solid #BCD2C5;
+}
+.pagination > li > a, .pagination > li > span {
+  background: #584A41;
+  border: 1px solid #BCD2C5;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+  border: 1px solid #BCD2C5;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background: #6B0F09;
+  color:#fff;
+}
+.pagination > .disabled > span, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+  background: #6B0F09;
+  color:#fff;
+  border-color:#6B0F09 !important;
+}
+.flexslider.flexSimple .flex-direction-nav a {
+  background: #6B0F09;
+}
+.blog-sidebar .tweet_list li .tweet_time a {
+  color: #888;
+}
+
+.highlight.type1 {
+  background:#600000;
+}
+.flickr_badge > div {
+  color: #600000;
+}
+
+#qLpercentage {
+  color:#600000 !important;
+}
+#qLbar {
+ background-color:#600000 !important;
+}
+
+.box_text{
+  .ribbon_icon{
+    background-image: url("@{base-url}/blog-ribbon3.png");
+  }
+}
+
+.blog-main .blog_thumbnail .ribbon_details{
+  background-image: url("@{base-url}/blog-ribbon1.png");
+}
+.blog-main .meta_box .meta_comments em{
+  background-image: url("@{base-url}/blog-ribbon2.png");
+}
+.progress{
+
+  &:before{
+    background-image: url("@{base-url}/progress-bar-left.png");
+  }
+}
+.progress-bar{
+  background-image: url("@{base-url}/progress-bar-md.png");
+
+  &:before{
+    background-image: url("@{base-url}/progress-bar-right.png");
+  }
+}
+.soc_list{
+  > li{
+    > a{
+      background-image: url("@{base-url}/soc-small.png");
+
+      &:hover {
+        color:#4f0c07;
+      }
+    }
+  }
+}
+.soc_list.soc-medium{
+
+  > li{
+
+    > a{
+      background-image: url("@{base-url}/soc-medium.png");
+    }
+  }
+}
+.soc_list.soc-big{
+
+  > li{
+
+    > a{
+      background-image: url("@{base-url}/soc-big.png");
+    }
+  }
+}
+
+.box_text .inner .author{
+  color: #fff;
+  text-shadow:none;
+}
+.blog-main .meta_box {
+  color: #584a41;
+}
+.blog-main .meta_box > span:before {
+  background: #584a41;
+}
+
+.blog-main .blog_title {
+  font-family: 'Bree Serif', serif;
+  font-size:30px;
+  line-height:31px;
+  color: #584a41;
+}
+.blog-main .meta_box .meta_comments em {
+  color:#fff;
+}
+.tooltip-inner{
+  background-color: #6b0f09;
+  color:#fff;
+  text-shadow: 0px -1px 0px #000;
+}
+
+.tooltip{
+  &.top .tooltip-arrow{
+    border-top-color: #6b0f09;
+  }
+  &.top-left .tooltip-arrow{
+    border-top-color: #6b0f09;
+  }
+  &.top-right .tooltip-arrow{
+    border-top-color: #6b0f09;
+  }
+  &.right .tooltip-arrow{
+    border-right-color: #6b0f09;
+  }
+  &.left .tooltip-arrow{
+    border-left-color: #6b0f09;
+  }
+  &.bottom .tooltip-arrow{
+    border-bottom-color: #6b0f09;
+  }
+  &.bottom-left .tooltip-arrow{
+    border-bottom-color: #6b0f09;
+  }
+  &.bottom-right .tooltip-arrow{
+    border-bottom-color: #6b0f09;
+  }
+}
+.pie-chart {
+  color:#fff;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav > li > .dropdown-menu {
+  border:1px solid #c9bb9f;
+  background:#fcf1e0;
+
+  > li > a {
+    font-family: 'Bree Serif', serif;
+    color:#5c0000;
+    font-size:20px;
+    line-height:21px;
+  }
+  > li > a:hover,
+  > li > a:focus {
+    background:rgba(0,0,0,.1);
+  }
+}

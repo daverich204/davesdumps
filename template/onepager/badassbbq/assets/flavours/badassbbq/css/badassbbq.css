@@ -1,0 +1,1305 @@
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+  font-family: "Carnivalee Freakshow";
+  src: url("../css/font/Carnevalee_Freakshow.eot?") format("eot"), url("../css/font/Carnevalee_Freakshow.woff") format("woff"), url("../css/font/Carnevalee_Freakshow.ttf") format("truetype"), url("../css/font/Carnevalee_Freakshow.svg#CarnivaleeFreakshow") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* *************** */
+/*  GENERAL STYLES */
+/* *************** */
+/* START EDIT HERE */
+body {
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  color: #584a41;
+  font-size: 14px;
+  line-height: 24px;
+  background: transparent url("../../../flavours/badassbbq/images/bg-2.jpg") repeat-y top center;
+}
+/* headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  color: #6b0f09;
+}
+.blog-sidebar .widget > h3 {
+  font-family: "Carnivalee Freakshow";
+  color: #584A41;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}
+h4 {
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+p {
+  text-shadow: none;
+  color: #584a41;
+}
+p.bigger {
+  font-size: 16px;
+  line-height: 21px;
+  color: #584a41;
+}
+p.large {
+  font-size: 20px;
+  line-height: 23px;
+}
+p a {
+  color: #B63B33;
+}
+.big {
+  color: #fcf1e0;
+  font-family: "Carnivalee Freakshow";
+  text-transform: uppercase;
+  text-align: center;
+}
+.hdr1 {
+  width: 817px;
+  min-height: 63px;
+  padding-top: 7px;
+  background: transparent url("../../../flavours/badassbbq/images/hdr-1.png") no-repeat top center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  color: #fcf1e0;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 34px;
+  line-height: 34px;
+  text-transform: none;
+  margin-bottom: 50px;
+}
+.hdr1.type2 {
+  width: 656px;
+  height: 137px;
+  background: transparent url("../../../flavours/badassbbq/images/hdr-1-a.png") no-repeat top center;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 32px;
+  line-height: 32px;
+  padding-left: 130px;
+  padding-right: 150px;
+  padding-top: 11px;
+}
+#menu .hdr1.type2 {
+  position: relative;
+  top: -72px;
+  margin-bottom: -120px;
+  pointer-events: none;
+}
+.flexFull .hdr3 {
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 800px;
+  margin: 5px auto 15px auto;
+}
+.flexFull .hdr2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+.hdr2 {
+  font-family: "Carnivalee Freakshow";
+  color: #6b0f09;
+  font-size: 35px;
+  line-height: 35px;
+  text-shadow: none;
+}
+.hdr2.special {
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  color: #6b0f09;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.hdr3 {
+  color: #6b0f09;
+  text-align: center;
+  font-size: 25px;
+  line-height: 26px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  text-transform: none;
+  text-shadow: none;
+}
+.hdr3 a {
+  color: #b63b33;
+}
+.hdr4 {
+  width: 657px;
+  min-height: 63px;
+  padding-top: 7px;
+  color: #fcf1e0;
+  background: transparent url("../../../flavours/badassbbq/images/hdr-4.png") no-repeat top center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  text-transform: none;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  margin-bottom: 40px;
+}
+.hdr5 {
+  color: #6b0f09;
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: none;
+}
+.hdr5 span {
+  border-bottom: 0;
+}
+.hdr6 {
+  width: 571px;
+  padding: 7px 40px 0 40px;
+  margin: 0 auto 20px auto;
+  min-height: 199px;
+  background: transparent url("../../../flavours/badassbbq/images/hdr-6.png") no-repeat top center;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  color: #fff;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: none;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+.mapWithOverlay {
+  position: relative;
+}
+.mapWithOverlay .hdr6 {
+  top: 70px;
+  left: 50%;
+  margin-left: -285px;
+  pointer-events: none;
+}
+.btn {
+  padding-top: 11px;
+  padding-bottom: 13px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: 'Bree Serif', serif;
+  text-transform: none;
+  -webkit-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  position: relative;
+  top: 1px;
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-default {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#390000), to(#5f0000));
+  background-image: -webkit-linear-gradient(top, #390000, 0%, #5f0000, 100%);
+  background-image: -moz-linear-gradient(top, #390000 0%, #5f0000 100%);
+  background-image: linear-gradient(to bottom, #390000 0%, #5f0000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff390000', endColorstr='#ff5f0000', GradientType=0);
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+  box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+}
+.btn-default:active,
+.btn-default.active,
+.btn-default:hover,
+.btn-default:focus {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#390000), to(#5f0000));
+  background-image: -webkit-linear-gradient(top, #390000, 0%, #5f0000, 100%);
+  background-image: -moz-linear-gradient(top, #390000 0%, #5f0000 100%);
+  background-image: linear-gradient(to bottom, #390000 0%, #5f0000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff390000', endColorstr='#ff5f0000', GradientType=0);
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+  box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+}
+.btn.btn-primary {
+  font-family: "Carnivalee Freakshow";
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#390000), to(#5e0000));
+  background-image: -webkit-linear-gradient(top, #390000, 0%, #5e0000, 100%);
+  background-image: -moz-linear-gradient(top, #390000 0%, #5e0000 100%);
+  background-image: linear-gradient(to bottom, #390000 0%, #5e0000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff390000', endColorstr='#ff5e0000', GradientType=0);
+  color: #fcf1e0;
+  border: none;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+  box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+}
+.btn.btn-primary:active,
+.btn.btn-primary.active,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#390000), to(#5e0000));
+  background-image: -webkit-linear-gradient(top, #390000, 0%, #5e0000, 100%);
+  background-image: -moz-linear-gradient(top, #390000 0%, #5e0000 100%);
+  background-image: linear-gradient(to bottom, #390000 0%, #5e0000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff390000', endColorstr='#ff5e0000', GradientType=0);
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+  box-shadow: 0px 3px 10px 0px rgba(38, 36, 25, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+}
+.btn-sm {
+  padding: 5px 12px 7px 12px;
+  font-size: 25px;
+  line-height: 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.priceHeader {
+  background: transparent url("../../../flavours/badassbbq/images/priceheader-bg.png") repeat-x center top;
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+}
+.priceHeader:before {
+  content: " ";
+  background: transparent url("../../../flavours/badassbbq/images/priceheader-lft.png") no-repeat top center;
+}
+.priceHeader:after {
+  content: " ";
+  background: transparent url("../../../flavours/badassbbq/images/priceheader-rt.png") no-repeat top center;
+}
+.priceHeader .lft {
+  float: left;
+  min-width: 210px;
+}
+.priceHeader .rt {
+  float: left;
+  min-width: 210px;
+}
+.priceHeader .price {
+  width: 112px;
+  height: 112px;
+  background: transparent url("../../../flavours/badassbbq/images/priceheader-price.png") no-repeat center top;
+  float: left;
+  position: relative;
+  margin-top: -40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.priceHeader .price .el_1 {
+  font-family: 'Kaushan Script', cursive;
+}
+.priceHeader .price .el_2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 22px;
+  letter-spacing: -0.1em;
+}
+.priceHeader .price .el_3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 39px;
+  line-height: 39px;
+  letter-spacing: -0.1em;
+}
+.priceHeader .price .el_4 {
+  font-family: 'Kaushan Script', cursive;
+  display: inline-block;
+  font-size: 22px;
+  width: 31px;
+}
+hr.line1 {
+  padding: 20px 0 30px 0;
+  margin: 0;
+  height: 30px;
+  background: transparent url("../../../flavours/badassbbq/images/line-1.png") no-repeat center 20px;
+}
+/* main menu */
+.is-sticky .full-sticky-menu {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+}
+@media (min-width: 990px) {
+  .is-sticky .full-sticky-menu .inner:before {
+    display: none;
+    height: 0;
+  }
+}
+@media (max-width: 990px) {
+  .navbar-default .navbar-collapse {
+    background: transparent url("../../../flavours/badassbbq/images/bg-1.jpg") repeat-y top center;
+    z-index: 2;
+    position: relative;
+  }
+  .navbar-header .navbar-brand {
+    max-width: 170px !important;
+  }
+  #menu .hdr1.type2 {
+    top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    height: auto;
+  }
+  .hdr1,
+  .hdr4 {
+    color: #6B0F09 !important;
+  }
+  .priceHeader .lft,
+  .priceHeader .rt {
+    color: #584A41 !important;
+  }
+  .small-brand {
+    margin-bottom: 5px !important;
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 480px) {
+  .flexslider.flexFade .descArea * {
+    color: #6B0F09 !important;
+    text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14) !important;
+  }
+}
+.navbar-header .navbar-brand {
+  padding-top: 0;
+}
+.navbar-default .navbar-nav {
+  float: none;
+}
+.navbar-default .navbar-nav > li {
+  margin: 0 15px 0 0;
+}
+.navbar-default .navbar-nav > li > a {
+  font-family: "Carnivalee Freakshow";
+  color: #6b0f09;
+  padding: 7px 14px 10px 14px;
+  text-transform: none;
+  font-size: 30px;
+  line-height: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #6b0f09;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 26, 12, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+  box-shadow: 0px 3px 10px 0px rgba(38, 26, 12, 0.4),0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#390000), to(#5e0000));
+  background-image: -webkit-linear-gradient(top, #390000, 0%, #5e0000, 100%);
+  background-image: -moz-linear-gradient(top, #390000 0%, #5e0000 100%);
+  background-image: linear-gradient(to bottom, #390000 0%, #5e0000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff390000', endColorstr='#ff5e0000', GradientType=0);
+  color: #fff;
+}
+.navbar-default .inner {
+  background: transparent url("../../../flavours/badassbbq/images/menu-bg.png") repeat-x center top;
+  height: 247px;
+  border: 0;
+}
+.navbar-default .inner:before {
+  content: " ";
+  height: 51px;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  background: transparent url("../../../flavours/badassbbq/images/menu-bg-top.png") repeat-x center top;
+}
+.navbar-default .inner .btm {
+  width: 100%;
+  height: 25px;
+  display: block;
+  background: transparent url("../../../flavours/badassbbq/images/menu-bg.png") repeat-x center -246px;
+  pointer-events: none;
+  position: absolute;
+  bottom: -24px;
+}
+.address {
+  font-family: "Carnivalee Freakshow";
+  font-size: 21px;
+  line-height: 23px;
+  color: #eee1ce;
+  text-shadow: none;
+  padding-top: 10px;
+}
+.blackboard {
+  background: transparent url("../../../flavours/badassbbq/images/blackboard-bg.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-right: 20px;
+}
+.tweet_list li {
+  background: transparent url("../../../flavours/badassbbq/images/twitter-ico.png") no-repeat left 6px;
+  padding-left: 30px;
+  font-family: 'Bree Serif', serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #b63b33;
+  margin-bottom: 15px;
+}
+.tweet_list li a {
+  color: #fcf1e0;
+}
+.tweet_list li .tweet_time {
+  background: transparent url("../../../flavours/badassbbq/images/line-twitter.png") repeat-x center bottom;
+  padding-bottom: 15px;
+}
+.tweet_list li .tweet_time a {
+  color: #a29888;
+}
+.tweet_list li:last-child .tweet_time {
+  background: none;
+}
+.customMarker i {
+  background: transparent url("../../../flavours/badassbbq/images/marker-icon.png") no-repeat center bottom;
+}
+.customMarker span {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#380000), to(#5a0000));
+  background-image: -webkit-linear-gradient(top, #380000, 0%, #5a0000, 100%);
+  background-image: -moz-linear-gradient(top, #380000 0%, #5a0000 100%);
+  background-image: linear-gradient(to bottom, #380000 0%, #5a0000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff380000', endColorstr='#ff5a0000', GradientType=0);
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  line-height: 21px;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;
+  text-shadow: none;
+}
+.customMarker span:before {
+  border-color: #5a0000 transparent transparent transparent;
+}
+/* socials links */
+.smallSocials li {
+  background: transparent url("../../../flavours/badassbbq/images/smallsocial-bg.png") no-repeat 0 0;
+}
+.smallSocials li a img {
+  display: none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.smallSocials li.fb {
+  background-position: 0 0;
+}
+.smallSocials li.tw {
+  background-position: -54px 0;
+}
+.smallSocials li.gg {
+  background-position: -106px 0;
+}
+.smallSocials li.rss {
+  background-position: -158px 0;
+}
+.smallSocials li.fb:hover {
+  background-position: 0 -32px;
+}
+.smallSocials li.tw:hover {
+  background-position: -54px -32px;
+}
+.smallSocials li.gg:hover {
+  background-position: -106px -32px;
+}
+.smallSocials li.rss:hover {
+  background-position: -158px -32px;
+}
+.bigSocials li {
+  background: transparent url("../../../flavours/badassbbq/images/social-bg.png") no-repeat 0 0;
+}
+.bigSocials li a img {
+  display: none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.bigSocials li.fb {
+  background-position: 0 0;
+}
+.bigSocials li.tw {
+  background-position: -70px 0;
+}
+.bigSocials li.gg {
+  background-position: -142px 0;
+}
+.bigSocials li.rss {
+  background-position: -212px 0;
+}
+.bigSocials li.fb:hover {
+  background-position: 0 -40px;
+}
+.bigSocials li.tw:hover {
+  background-position: -70px -40px;
+}
+.bigSocials li.gg:hover {
+  background-position: -142px -40px;
+}
+.bigSocials li.rss:hover {
+  background-position: -212px -40px;
+}
+.phoneIcon,
+.locationIcon {
+  background: transparent url("../../../flavours/badassbbq/images/mobile-flag.png") no-repeat 0 0;
+}
+.phoneIcon {
+  background-position: -287px 0;
+}
+.section > .inner {
+  padding-bottom: 85px;
+}
+.bg-1 {
+  background: transparent url("../../../flavours/badassbbq/images/bg-1.jpg") repeat-y top center;
+}
+.bg-2 {
+  background: transparent url("../../../flavours/badassbbq/images/bg-2.jpg") repeat-y top center;
+}
+.bg-1.topOrnament,
+.bg-2.topOrnament {
+  padding-top: 30px;
+}
+.bg-1.topOrnament > .inner,
+.bg-2.topOrnament > .inner {
+  padding-top: 0;
+}
+.bg-1.topOrnament:before,
+.bg-2.topOrnament:before {
+  content: " ";
+  display: block;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  top: -85px;
+  background: transparent url("../../../flavours/badassbbq/images/bg-1-top.png") no-repeat top center;
+}
+.bg-2.topOrnament:before {
+  background: transparent url("../../../flavours/badassbbq/images/bg-2-top.png") no-repeat top center;
+}
+.flexslider.flexFull.type2 .flex-direction-nav a {
+  background: transparent url("../../../flavours/badassbbq/images/slider2-controls.png") no-repeat left top;
+}
+.flexslider.flexFull.type2 .flex-direction-nav a:hover {
+  background-position: left -145px;
+}
+.flexslider.flexFull.type2 .flex-direction-nav a:before {
+  display: none;
+  height: 0;
+}
+.flexslider.flexFull.type2 .flex-direction-nav .flex-next {
+  background-position: -167px 0;
+}
+.flexslider.flexFull.type2 .flex-direction-nav .flex-next:hover {
+  background-position: -167px -145px;
+}
+.flexslider.flexFade .descArea {
+  background: transparent url("../../../flavours/badassbbq/images/circle-flex.png") no-repeat top center;
+}
+.flexslider.flexFade .descArea h4 {
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fcf1e0;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+.flexslider.flexFade .descArea h5 {
+  color: #fcf1e0;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+  line-height: 28px;
+  text-transform: none;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+.flexslider.flexFade .descArea p {
+  color: #fcf1e0;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+.flexslider.flexFade .price {
+  font-family: "Carnivalee Freakshow";
+  font-size: 90px;
+  line-height: 70px;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+.flexslider.flexFade .price em {
+  font-family: "Carnivalee Freakshow";
+  font-size: 54px;
+  line-height: 54px;
+  top: -0.5em;
+}
+.flexslider.flexFade .price span {
+  font-family: "Carnivalee Freakshow";
+  font-size: 54px;
+  line-height: 54px;
+  top: -0.5em;
+  padding-left: 4px;
+}
+.hdr7 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 38px;
+  color: #6b0f09;
+  text-transform: none;
+}
+.prodBox {
+  font-family: 'Bree Serif', serif;
+  color: #877e7e;
+  font-size: 14px;
+  line-height: 18px;
+}
+.prodBox p {
+  font-family: 'Bree Serif', serif;
+  color: #877e7e;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+.prodBox .info {
+  display: block;
+  padding: 15px 0;
+  color: #676464;
+  font-size: 11px;
+  line-height: 18px;
+}
+.prodBox h4 {
+  color: #584a41;
+  font-family: "Carnivalee Freakshow";
+  font-size: 26px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+.prodBox .price {
+  color: #fcf1e0;
+  font-family: "Carnivalee Freakshow";
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 60px;
+  line-height: 44px;
+  position: absolute;
+  top: -52px;
+  left: 50%;
+  margin-left: -55px;
+  background: transparent url("../../../flavours/badassbbq/images/prodbox-price.png") no-repeat top center;
+  border: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+  width: 110px;
+  height: 110px;
+}
+.prodBox .price small {
+  font-family: "Carnivalee Freakshow";
+  font-size: 24px;
+}
+.prodBox .price em {
+  font-style: normal;
+  font-family: "Carnivalee Freakshow";
+  font-size: 30px;
+}
+.prodBox .price span {
+  font-family: "Carnivalee Freakshow";
+  padding-left: 3px;
+  font-size: 30px;
+}
+.menuBox .top {
+  background: transparent url("../../../flavours/badassbbq/images/menubox-top.png") no-repeat center 1px;
+  padding: 28px 0 0 0;
+  text-transform: uppercase;
+  color: #fcf1e0;
+  font-family: "Carnivalee Freakshow";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+}
+.menuBox .top span {
+  padding-top: 10px;
+}
+.menuBox .inner p {
+  color: #584a41;
+  font-family: 'Bree Serif', serif;
+}
+.menuBox .inner .title {
+  color: #584a41;
+  font-family: 'Bree Serif', serif;
+}
+.menuBox .inner .price {
+  font-family: "Carnivalee Freakshow";
+  color: #6b0f09;
+  font-size: 40px;
+  line-height: 30px;
+}
+.menuBox .inner .price em {
+  font-style: normal;
+  font-family: "Carnivalee Freakshow";
+  font-size: 24px;
+}
+.menuBox .inner .price span {
+  font-family: "Carnivalee Freakshow";
+  font-size: 24px;
+}
+.menuBox hr {
+  background: transparent url("../../../flavours/badassbbq/images/line-hr2.png") repeat-x center 10px;
+  height: 1px;
+  padding: 10px 0;
+}
+.eventBox {
+  background: #600000;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.eventBox .hdr2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #fcf1e0;
+  text-shadow: none;
+}
+.eventBox hr {
+  height: 1px;
+  background: #be9082;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.eventBox .date {
+  padding-top: 19px;
+  background: #c5b8a3;
+  font-family: "Carnivalee Freakshow";
+  color: #fff;
+  font-size: 34px;
+  line-height: 34px;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+}
+.eventBox .date span {
+  font-family: "Carnivalee Freakshow";
+  font-size: 70px;
+}
+.eventBox .place {
+  font-family: 'Bree Serif', serif;
+  color: #fcf1e0;
+  font-size: 25px;
+  line-height: 25px;
+  text-shadow: none;
+  text-transform: none;
+}
+.eventBox .time {
+  font-family: "Carnivalee Freakshow";
+  color: #fcf1e0;
+  font-size: 45px;
+  line-height: 45px;
+  text-shadow: none;
+  text-transform: none;
+}
+.mapit,
+.shareit {
+  font-family: "Carnivalee Freakshow";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fcf1e0;
+}
+.mapit:hover,
+.shareit:hover {
+  color: #fcf1e0;
+}
+.mapit i,
+.shareit i {
+  background: transparent url("../../../flavours/badassbbq/images/marker-share.png") no-repeat 0 0;
+}
+.shareit i {
+  background-position: 0 -124px;
+}
+.easyBox .mapit,
+.easyBox .shareit,
+.mapit.type2,
+.shareit.type2 {
+  color: #6b0f09;
+}
+.easyBox .mapit:hover,
+.easyBox .shareit:hover,
+.mapit.type2:hover,
+.shareit.type2:hover {
+  color: #6b0f09;
+}
+.easyBox .mapit i,
+.easyBox .shareit i,
+.mapit.type2 i,
+.shareit.type2 i {
+  background: transparent url("../../../flavours/badassbbq/images/marker-share2.png") no-repeat 0 0;
+}
+.easyBox {
+  background: #f4f2ea;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.bx-wrapper .bx-prev {
+  background: transparent url("../../../flavours/badassbbq/images/controls-bxslider.png") no-repeat 0 0;
+  left: 85px;
+}
+.bx-wrapper .bx-prev:hover {
+  background-position: 0 -54px;
+}
+.bx-wrapper .bx-next {
+  background: transparent url("../../../flavours/badassbbq/images/controls-bxslider.png") no-repeat -94px 0;
+  right: 85px;
+}
+.bx-wrapper .bx-next:hover {
+  background-position: -94px -54px;
+}
+.galleryBox .top {
+  font-size: 28px;
+  line-height: 28px;
+  background: transparent url("../../../flavours/badassbbq/images/gallerybox-top.png") no-repeat center 1px;
+  text-transform: uppercase;
+  font-family: "Carnivalee Freakshow";
+  padding-top: 67px;
+  color: #fcf1e0;
+}
+.galleryContainer li a div {
+  background: #6b0f09;
+  background: rgba(107, 15, 9, 0.62);
+}
+.galleryContainer li a div span {
+  text-transform: none;
+  font-family: 'Bree Serif', serif;
+  text-shadow: none;
+  color: #fff;
+  font-size: 25px;
+}
+.form-control {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8d7e74;
+  background-color: #eae7dd;
+  border: 1px solid transparent;
+  font-family: 'Bree Serif', serif;
+}
+.form-control:-moz-placeholder {
+  color: #8d7e74;
+}
+.form-control::-moz-placeholder {
+  color: #8d7e74;
+}
+.form-control:-ms-input-placeholder {
+  color: #8d7e74;
+}
+.form-control::-webkit-input-placeholder {
+  color: #8d7e74;
+}
+.form-control:focus {
+  border-color: #cccccc;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 204, 204, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 204, 204, 0.6);
+}
+form label {
+  color: #6b0f09;
+  font-size: 23px;
+  line-height: 23px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  text-transform: none;
+  margin-bottom: 15px;
+  text-shadow: none;
+}
+footer {
+  background: transparent url("../../../flavours/badassbbq/images/footer-bg-repeat.jpg") repeat top center;
+}
+footer .googleMap {
+  margin-top: 10px;
+}
+footer .row > div:last-child h4 {
+  text-align: center;
+}
+footer .row > div h4:first-child {
+  margin-top: 70px;
+}
+footer h4 {
+  color: #fcf1e0;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: "Carnivalee Freakshow";
+}
+footer p {
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fcf1e0;
+}
+footer hr {
+  background: transparent url("../../../flavours/badassbbq/images/hr-contact.png") repeat-x left 20px;
+}
+footer .copyright {
+  color: #fcf1e0;
+  font-family: 'Bree Serif', serif;
+}
+footer .copyright a {
+  color: #b63b33;
+}
+footer .tweet_list li {
+  background: transparent url("../../../flavours/badassbbq/images/hr-contact.png") repeat-x left top;
+}
+footer .tweet_list li:before {
+  background: transparent url("../../../flavours/badassbbq/images/twitter-ico.png") no-repeat top center;
+  top: 23px;
+}
+footer .tweet_list li a {
+  color: #fcf1e0;
+}
+footer .tweet_list li .tweet_time {
+  background: none;
+  padding-bottom: 0;
+}
+footer .tweet_list li .tweet_time a {
+  color: #a29888;
+}
+footer .tweet_list li:first-child {
+  background: none;
+  padding-top: 0;
+}
+footer .tweet_list li:first-child:before {
+  top: 6px;
+}
+footer:before {
+  height: 314px;
+  background: transparent url("../../../flavours/badassbbq/images/footer-bg.jpg") repeat-x center top;
+}
+footer #toTop {
+  width: 109px;
+  height: 57px;
+  background: transparent url("../../../flavours/badassbbq/images/totop-btn.png") no-repeat center top;
+  margin-left: -55px;
+}
+.navbar-default .navbar-nav.text-center > li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.navbar-default .navbar-nav.text-center > li > a {
+  font-size: 28px;
+  line-height: 28px;
+}
+.personBox .ptitle {
+  font-family: "Carnivalee Freakshow";
+  background: #600000;
+  text-shadow: 2px 3px 0px rgba(59, 127, 139, 0.14);
+  font-size: 28px;
+  line-height: 26px;
+}
+.personBox .pname {
+  color: #6B0F09;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  line-height: 21px;
+}
+hr.line-separator {
+  border: 0;
+}
+.buttonBox {
+  background: transparent url("../../../flavours/badassbbq/images/buttonbox-bg.png") no-repeat center top;
+  width: 821px;
+  min-height: 79px;
+  padding-top: 11px;
+  font-family: 'Bree Serif', serif;
+  color: #fff;
+}
+.buttonBox p {
+  margin-top: 3px;
+  color: #fff;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+  font-size: 26px;
+  line-height: 30px;
+}
+.nav-tabs.type2 + .tab-content * {
+  color: #584A41;
+}
+.nav-tabs.type2 > li.active > a,
+.nav-tabs.type2 > li.active > a:hover,
+.nav-tabs.type2 > li.active > a:focus {
+  color: #584A41;
+}
+.nav-tabs.type2 > li > a {
+  font-family: 'Bree Serif', serif;
+  color: #584A41;
+}
+.nav-tabs.type2 > li > a:hover {
+  color: #584A41;
+}
+.nav-tabs.type2.dark_ver + .tab-content {
+  background: #600000;
+}
+.nav-tabs.type2.dark_ver > li > a {
+  background: #560101;
+}
+.nav-tabs.type2.dark_ver > li + li + li > a {
+  background: #4f0000;
+}
+.nav-tabs.type2.dark_ver > li > a:hover {
+  background: #600000;
+  color: #fff;
+}
+.nav-tabs.type2.dark_ver > li.active > a,
+.nav-tabs.type2.dark_ver > li.active > a:hover,
+.nav-tabs.type2.dark_ver > li.active > a:focus {
+  background: #600000;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  color: #600000;
+}
+.panel-default > .panel-heading a {
+  color: #600000;
+  font-family: 'Bree Serif', serif;
+}
+.panel-default > .panel-heading a:before {
+  color: #600000;
+}
+.box_text .inner {
+  background: #6b0f09;
+  color: #fcf1e0;
+}
+.box_text .inner p {
+  color: #fcf1e0;
+}
+.box_text .ribbon_icon {
+  color: #480000;
+}
+.highlight.type1,
+.highlight.type2 {
+  color: #fff;
+}
+.testimonial.dark_ver .inner {
+  background: #600000;
+  color: #fff;
+}
+.testimonial.dark_ver .inner p {
+  color: #fff;
+}
+.testimonial.dark_ver .inner:after {
+  border-color: #600000 transparent transparent transparent;
+}
+.blog-sidebar .widget_archive h3 + ul > li,
+.blog-sidebar .widget_categories h3 + ul > li,
+.blog-sidebar .widget_recent_entries h3 + ul > li,
+.blog-sidebar .widget_recent_comments h3 + ul > li,
+.blog-sidebar .widget_categories h3 + ul > li,
+.blog-sidebar .widget_meta h3 + ul > li,
+.blog-sidebar .widget_pages h3 + ul > li,
+.blog-sidebar .widget_rss h3 + ul > li,
+.blog-sidebar .widget_links h3 + ul > li {
+  color: #6B0F09;
+  font-family: 'Bree Serif', serif;
+}
+.blog-sidebar .widget_archive h3 + ul > li.active,
+.blog-sidebar .widget_categories h3 + ul > li.active,
+.blog-sidebar .widget_recent_entries h3 + ul > li.active,
+.blog-sidebar .widget_recent_comments h3 + ul > li.active,
+.blog-sidebar .widget_categories h3 + ul > li.active,
+.blog-sidebar .widget_meta h3 + ul > li.active,
+.blog-sidebar .widget_pages h3 + ul > li.active,
+.blog-sidebar .widget_rss h3 + ul > li.active,
+.blog-sidebar .widget_links h3 + ul > li.active {
+  color: #B63B33;
+}
+.blog-main .meta_box .meta_comments em {
+  color: #fff;
+}
+.blog-sidebar .widget .tab-content ul > li {
+  color: #6B0F09;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: #C5B8A3;
+  color: #6B0F09;
+}
+.nav-tabs > li > a:hover {
+  background: #C5B8A3;
+  color: #6B0F09;
+}
+.nav-tabs > li > a {
+  background: #6B0F09;
+}
+.blog-main .meta_box {
+  color: #6B0F09;
+}
+.blog-main .meta_box > span:before {
+  background: #6B0F09;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background: #584A41;
+  border: 1px solid #BCD2C5;
+}
+.pagination > li > a,
+.pagination > li > span {
+  background: #584A41;
+  border: 1px solid #BCD2C5;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border: 1px solid #BCD2C5;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background: #6B0F09;
+  color: #fff;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  background: #6B0F09;
+  color: #fff;
+  border-color: #6B0F09 !important;
+}
+.flexslider.flexSimple .flex-direction-nav a {
+  background: #6B0F09;
+}
+.blog-sidebar .tweet_list li .tweet_time a {
+  color: #888;
+}
+.highlight.type1 {
+  background: #600000;
+}
+.flickr_badge > div {
+  color: #600000;
+}
+#qLpercentage {
+  color: #600000 !important;
+}
+#qLbar {
+  background-color: #600000 !important;
+}
+.box_text .ribbon_icon {
+  background-image: url("../../../flavours/badassbbq/images/blog-ribbon3.png");
+}
+.blog-main .blog_thumbnail .ribbon_details {
+  background-image: url("../../../flavours/badassbbq/images/blog-ribbon1.png");
+}
+.blog-main .meta_box .meta_comments em {
+  background-image: url("../../../flavours/badassbbq/images/blog-ribbon2.png");
+}
+.progress:before {
+  background-image: url("../../../flavours/badassbbq/images/progress-bar-left.png");
+}
+.progress-bar {
+  background-image: url("../../../flavours/badassbbq/images/progress-bar-md.png");
+}
+.progress-bar:before {
+  background-image: url("../../../flavours/badassbbq/images/progress-bar-right.png");
+}
+.soc_list > li > a {
+  background-image: url("../../../flavours/badassbbq/images/soc-small.png");
+}
+.soc_list > li > a:hover {
+  color: #4f0c07;
+}
+.soc_list.soc-medium > li > a {
+  background-image: url("../../../flavours/badassbbq/images/soc-medium.png");
+}
+.soc_list.soc-big > li > a {
+  background-image: url("../../../flavours/badassbbq/images/soc-big.png");
+}
+.box_text .inner .author {
+  color: #fff;
+  text-shadow: none;
+}
+.blog-main .meta_box {
+  color: #584a41;
+}
+.blog-main .meta_box > span:before {
+  background: #584a41;
+}
+.blog-main .blog_title {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  line-height: 31px;
+  color: #584a41;
+}
+.blog-main .meta_box .meta_comments em {
+  color: #fff;
+}
+.tooltip-inner {
+  background-color: #6b0f09;
+  color: #fff;
+  text-shadow: 0px -1px 0px #000000;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #6b0f09;
+}
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: #6b0f09;
+}
+.tooltip.top-right .tooltip-arrow {
+  border-top-color: #6b0f09;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #6b0f09;
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #6b0f09;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #6b0f09;
+}
+.tooltip.bottom-left .tooltip-arrow {
+  border-bottom-color: #6b0f09;
+}
+.tooltip.bottom-right .tooltip-arrow {
+  border-bottom-color: #6b0f09;
+}
+.pie-chart {
+  color: #fff;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+}
+.navbar-nav > li > .dropdown-menu {
+  border: 1px solid #c9bb9f;
+  background: #fcf1e0;
+}
+.navbar-nav > li > .dropdown-menu > li > a {
+  font-family: 'Bree Serif', serif;
+  color: #5c0000;
+  font-size: 20px;
+  line-height: 21px;
+}
+.navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-nav > li > .dropdown-menu > li > a:focus {
+  background: rgba(0, 0, 0, 0.1);
+}
