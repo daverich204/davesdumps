@@ -1,0 +1,1773 @@
+<!doctype html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Foodtruck - Responsive HTML5/CSS Template</title>
+
+  <meta name="description" content="Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form on this page. http://themeforest.net/user/createit-pl Thanks so much!">
+  <meta name="author" content="createIT">
+  <meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+
+
+  <link type="text/css" rel="stylesheet" href="syntaxh/css/shCoreDefault.css">
+  <link rel="stylesheet" href="css/documenter_style.css" media="all">
+
+
+  <script src="js/jquery.1.6.4.js"></script>
+
+  <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+  <script src="js/jquery.easing.js"></script>
+
+
+  <script>document.createElement('section');
+  var duration = 500, easing = 'swing';</script>
+  <script src="js/script.js"></script>
+
+
+  <style>
+    html{ background-color: #FFFFFF; color: #383838; }
+    ::-moz-selection{ background: #444444; color: #DDDDDD; }
+    ::selection{ background: #444444; color: #DDDDDD; }
+    #documenter_sidebar #documenter_logo{ background-image: url(); }
+    a{ color: #0000FF; }
+    hr{ border-top: 1px solid #EBEBEB; border-bottom: 1px solid #FFFFFF; }
+    #documenter_sidebar, #documenter_sidebar ol a{ background-color: #DDDDDD; color: #222222; }
+    #documenter_sidebar ol a{ -webkit-text-shadow: 1px 1px 0px #EEEEEE; -moz-text-shadow: 1px 1px 0px #EEEEEE; text-shadow: 1px 1px 0px #EEEEEE; }
+    #documenter_sidebar ol{ border-top: 1px solid #AAAAAA; }
+    #documenter_sidebar ol a{ border-top: 1px solid #EEEEEE; border-bottom: 1px solid #AAAAAA; color: #444444; }
+    #documenter_sidebar ol a:hover{ background: #444444; color: #DDDDDD; border-top: 1px solid #444444; }
+    #documenter_sidebar ol a.current{ background: #444444; color: #DDDDDD; border-top: 1px solid #444444; }
+    #documenter_copyright{ display: block !important; visibility: visible !important; }
+  </style>
+
+  <style>
+    .clear{
+      clear: both;
+      height: 0;
+      overflow: hidden;
+    }
+    img{
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0, 0, 0, .4);
+    }
+    .rows2 {max-width:600px;}
+    .rows2 li {display: inline-block; min-height: 100px; vertical-align: top;}
+  </style>
+
+</head>
+<body>
+<div id="documenter_sidebar">
+  <a href="#documenter_cover" id="documenter_logo"></a>
+  <ol id="documenter_nav">
+    <li><a class="current" href="#documenter_cover">Start</a></li>
+    <li><a href="#html_structure">HTML Structure</a></li>
+    <li><a href="#css_files_structure">CSS Files & Structure</a></li>
+    <li><a href="#java_script">Java Script</a></li>
+    <li><a href="#typography">Typography</a></li>
+    <li><a href="#psd_files">PSD Files</a></li>
+    <li><a href="#forms">Contact and Newsletter Form</a></li>
+    <li><a href="#tweets">Twitter Feed</a></li>
+    <li><a href="#sources_credits">Sources & Credits</a></li>
+
+  </ol>
+  <div id="documenter_copyright">Copyright createIT<br>
+    made with the <a href="http://rxa.li/documenter">Documenter v1.6</a>
+  </div>
+</div>
+<div id="documenter_content">
+<section id="documenter_cover"><h1>Foodtruck 10 in 1</h1>
+
+  <h2>Responsive HTML/CSS Template</h2>
+  <hr>
+  <ul>
+    <li>Created: Nov 05, 2013</li>
+    <li>latest Update: Jan 20, 2014</li>
+    <li>By: createIT</li>
+    <li><a href="http://themeforest.net/user/createit-pl/portfolio">http://themeforest.net/user/createit-pl/portfolio</a></li>
+    <li>Email: <a href="mailto:support@createit.pl">support@createit.pl</a>
+    </li>
+  </ul>
+  <p>Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form on this page.
+    <a href="http://themeforest.net/user/createit-pl">http://themeforest.net/user/createit-pl</a> Thanks so much!</p>
+
+
+</section>
+<section id="html_structure">
+
+
+<h2 id="structure" class="section-title">HTML Structure</h2>
+
+
+<p>
+  This theme is built upon bootstrap framework and is fully responsive. It adapts to window resolution and looks good on all devices including ipad and iphone.<br>
+  See for yourself (resize your browser).</p>
+
+<div style="padding:20px; width:350px; background:#ddd; text-align:center; ">
+  If you would like to read more <br>about bootstrap framework click here :<br><br>
+  <a href="http://getbootstrap.com/css/" style="font-size:16px; font-weight:bold; color:#000;">Bootstrap Documentation</a>
+</div>
+
+<div class="subChapter">
+
+<h5>Main Menu structure</h5>
+
+<p>
+  Just change address, fill in social page urls and upload your logo to images/content/logo.png file and you're ready to go!
+</p>
+
+ <pre class="brush: html">
+
+   &lt;nav class="navbar navbar-default full-sticky-menu" role="navigation">
+     &lt;div class="inner">
+       &lt;div class="container">
+         &lt;!-- Brand and toggle get grouped for better mobile display -->
+         &lt;div class="navbar-header">
+           &lt;button type="button" class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+             &lt;span class="sr-only">Toggle navigation&lt;/span>
+             &lt;span class="icon-bar">&lt;/span>
+             &lt;span class="icon-bar">&lt;/span>
+             &lt;span class="icon-bar">&lt;/span>
+           &lt;/button>
+
+           &lt;div class="text-center">
+             &lt;!-- fill in your address -->
+             &lt;p class="address">
+               Burger Lover - Atlantic Avenue 1234, New York, +66 87 65 43 21
+             &lt;/p>
+           &lt;/div>
+
+           &lt;!--  logo image -->
+           &lt;a class="navbar-brand" href="/" data-width="390" data-top="45">&lt;img src="images/content/logo.png" alt=" ">&lt;/a>
+           &lt;!-- fill in social page urls -->
+           &lt;ul class="smallSocials">
+             &lt;li class="fb">&lt;a href="#">&lt;img src="images/smallsocial-fb.png" alt="Facebook">&lt;/a>&lt;/li>
+             &lt;li class="tw">&lt;a href="#">&lt;img src="images/smallsocial-tw.png" alt="Twitter">&lt;/a>&lt;/li>
+             &lt;li class="gg">&lt;a href="#">&lt;img src="images/smallsocial-gg.png" alt="Google+">&lt;/a>&lt;/li>
+             &lt;li class="rss">&lt;a href="#">&lt;img src="images/smallsocial-rss.png" alt="RSS">&lt;/a>&lt;/li>
+           &lt;/ul>
+         &lt;/div>
+
+
+         &lt;div class="collapse navbar-collapse navbar-ex1-collapse">
+           &lt;!-- left menu -->
+           &lt;ul class="nav navbar-nav pull-left" data-type="margin-top" data-pos="135">
+             &lt;li class="active">&lt;a href="#location">Location&lt;/a>&lt;/li>
+             &lt;li>&lt;a href="#menu">Menu&lt;/a>&lt;/li>
+             &lt;li>&lt;a href="#events">Events&lt;/a>&lt;/li>
+           &lt;/ul>
+           &lt;!-- right menu -->
+           &lt;ul class="nav navbar-nav pull-right" data-type="margin-top" data-pos="135">
+             &lt;li>&lt;a href="#story">Story&lt;/a>&lt;/li>
+             &lt;li>&lt;a href="#gallery">Gallery&lt;/a>&lt;/li>
+             &lt;li>&lt;a href="#contact">Contact&lt;/a>&lt;/li>
+           &lt;/ul>
+         &lt;/div>
+         &lt;!-- /.navbar-collapse -->
+       &lt;/div>
+       &lt;!-- / container -->
+
+       &lt;div class="btm">&lt;/div>
+     &lt;/div>
+
+   &lt;/nav>
+
+ </pre>
+
+
+<p>
+  By editing data attributes you can adjust menu elements to fit your needs :
+</p>
+
+<ul>
+  <li><strong>logo</strong> - data-width="390" data-top="45" (image width, margin top)</li>
+  <li><strong>menu left</strong> - data-pos="135" (margin top)</li>
+  <li><strong>menu right</strong> - data-pos="135" (margin top)</li>
+</ul>
+
+<br><br>
+<h5>Mobile Logo</h5>
+
+<p>We provide option to set second logo (it will display < 990px resolution and after scrolling the page - when menu will shrink in height).<br>
+Logo is center, but you can control top position of logo, just edit : <strong>data-top</strong> value.</p>
+
+
+<pre class="brush: html">
+  &lt;a class="small-brand" href="/" style="display:none;" data-width="175" data-top="50">&lt;img src="flavours/pizza/images/content/logo-small.png" alt=" " >&lt;/a>
+</pre>
+
+<h5>Grid System and Single row structure</h5>
+
+<p>The default Bootstrap grid system utilizes 12 columns. It's responsive grid and adapts to viewport. Below 767px viewports, the columns become fluid and stack vertically. The fluid grid system uses percents instead of
+  pixels for column widths. Each row always include 12 columns (for example col-md-8 + col-md-4 = col-md-12).<br>
+  Bootstrap documentation: <a href="http://getbootstrap.com/css/#grid">here</a><br><br>
+  Basic grid HTML:</p>
+
+
+<pre class="brush: html">
+
+  &lt;div class="row">
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+    &lt;div class="col-md-1">.col-md-1&lt;/div>
+  &lt;/div>
+  &lt;div class="row">
+    &lt;div class="col-md-8">.col-md-8&lt;/div>
+    &lt;div class="col-md-4">.col-md-4&lt;/div>
+  &lt;/div>
+  &lt;div class="row">
+    &lt;div class="col-md-4">.col-md-4&lt;/div>
+    &lt;div class="col-md-4">.col-md-4&lt;/div>
+    &lt;div class="col-md-4">.col-md-4&lt;/div>
+  &lt;/div>
+  &lt;div class="row">
+    &lt;div class="col-md-6">.col-md-6&lt;/div>
+    &lt;div class="col-md-6">.col-md-6&lt;/div>
+  &lt;/div>
+
+</pre>
+
+
+<h5>Page structure</h5>
+
+<p>Below you will find default page structure :</p>
+
+ <pre class="brush: html">
+   &lt;!DOCTYPE html>
+   &lt;html>
+   &lt;head>
+
+   [css]
+
+   &lt;/head>
+   &lt;body>
+
+   [main menu]
+
+    [section]
+      [component 1]
+      [component 2]
+    [/section]
+
+     [section]
+       [component 3]
+       [component 4]
+     [/section]
+
+   [footer]
+
+   [javascripts]
+
+   &lt;/body>
+   &lt;/html>
+ </pre>
+
+
+
+<h5>Sections</h5>
+
+
+<p>Section is part of page with separate background,<br>
+  has several paramaters that can be changed:</p>
+
+<ul>
+  <li><strong>"bg-2" class</strong> - define background-color, you can also use "bg-1"</li>
+  <li><strong>"topOrnament" class</strong> - adds fancy strip at the top of section (just remove class to disable it)</li>
+  <li><strong>"repeated" class</strong> - it will repeat background image (like brick background in "story" section, it is optional)</li>
+  <li><strong>data-topspace</strong> - top padding for section</li>
+  <li><strong>data-bottomspace</strong> - bottom padding for section</li>
+  <li><strong>scroll="scroll"</strong> - background will scroll instead be fixed (optional parameter)</li>
+  <li><strong>data-image</strong> - path to background image, best resolution is 1920px x 1200px</li>
+</ul>
+
+<pre class="brush: html">
+  &lt;div class="bg-2 topOrnament section">
+    &lt;div class="inner repeated" data-topspace="20" data-bottomspace="20" scroll="scroll" data-image="flavours/pizza/images/content/background-6.jpg">
+      &lt;div class="container">
+
+        [section content]
+
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+</pre>
+
+
+
+<h5>One pager structure</h5>
+
+<p>As one-pager template includes several chapters. <br>
+Each chapter coresponds with each menu item.<br>
+For example : we have 6 menu elements :
+</p>
+
+<ul>
+  <li>#location</li>
+  <li>#menu</li>
+  <li>#events</li>
+  <li>#story</li>
+  <li>#gallery</li>
+  <li>#contact</li>
+</ul>
+
+<pre class="brush: html">
+  &lt;ul class="nav navbar-nav pull-left" data-type="margin-top" data-pos="135">
+    &lt;li class="active">&lt;a href="#location">Location&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#menu">Menu&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#events">Events&lt;/a>&lt;/li>
+  &lt;/ul>
+  &lt;ul class="nav navbar-nav pull-right" data-type="margin-top" data-pos="135">
+    &lt;li>&lt;a href="#story">Story&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#gallery">Gallery&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#contact">Contact&lt;/a>&lt;/li>
+  &lt;/ul>
+</pre>
+
+<p>So, there are 6 chapters with proper id :</p>
+
+<pre class="brush: html">
+  &lt;div class="row nomargin threeBoxes" id="location">
+    [chapter content]
+  &lt;/div>
+
+  &lt;div class="bg-1 section" id="menu">
+    [chapter content]
+  &lt;/div>
+
+  &lt;div class="bg-1 section" id="events">
+    [chapter content]
+  &lt;/div>
+
+  &lt;div class="bg-2 topOrnament section" id="story">
+    [chapter content]
+  &lt;/div>
+
+  &lt;div class="bg-2 section" id="gallery">
+    [chapter content]
+  &lt;/div>
+
+  &lt;div class="bg-2 section" id="contact">
+    [chapter content]
+  &lt;/div>
+</pre>
+
+
+<h5>Multipage structure</h5>
+
+<p>
+  Template comes also with multipage version.
+  Basically only navbar changes :
+</p>
+<ul>
+  <li>It's static (not sticky like in onepager)</li>
+  <li>only one version logo is used</li>
+  <li>menu can have dropdown menu</li>
+</ul>
+
+<pre class="brush: html">
+
+  &lt;nav class="navbar navbar-default" role="navigation">
+    &lt;div class="inner">
+      &lt;div class="container">
+        &lt;!-- Brand and toggle get grouped for better mobile display -->
+        &lt;div class="navbar-header">
+          &lt;button type="button" class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            &lt;span class="sr-only">Toggle navigation&lt;/span>
+            &lt;span class="icon-bar">&lt;/span>
+            &lt;span class="icon-bar">&lt;/span>
+            &lt;span class="icon-bar">&lt;/span>
+          &lt;/button>
+
+          &lt;div class="text-center">
+            &lt;p class="address">
+              Seabreeze - Atlantic Avenue 1234, New York, +66 87 65 43 21
+            &lt;/p>
+          &lt;/div>
+
+          &lt;a class="small-brand" href="/"  data-width="119" data-top="58">&lt;img src="../../assets/flavours/seabreeze/images/demo-content/logo-small.png" alt=" " >&lt;/a>
+
+          &lt;a href="tel:66-87-65-43-21" class="phoneIcon" style="display:none">+66 87 65 43 21&lt;/a>
+          &lt;a href="http://goo.gl/maps/IUzKJ" class="locationIcon" target="_blank" style="display:none;">http://goo.gl/maps/IUzKJ&lt;/a>
+          &lt;ul class="smallSocials">
+            &lt;li class="fb">&lt;a href="#">&lt;img src="../../assets/images/smallsocial-fb.png" alt="Facebook">&lt;/a>&lt;/li>
+            &lt;li class="tw">&lt;a href="#">&lt;img src="../../assets/images/smallsocial-tw.png" alt="Twitter">&lt;/a>&lt;/li>
+            &lt;li class="gg">&lt;a href="#">&lt;img src="../../assets/images/smallsocial-gg.png" alt="Google+">&lt;/a>&lt;/li>
+            &lt;li class="rss">&lt;a href="#">&lt;img src="../../assets/images/smallsocial-rss.png" alt="RSS">&lt;/a>&lt;/li>
+          &lt;/ul>
+        &lt;/div>
+
+        &lt;!-- Collect the nav links, forms, and other content for toggling -->
+        &lt;div class="collapse navbar-collapse navbar-ex1-collapse">
+          &lt;ul class="nav navbar-nav text-center" data-type="margin-top" data-pos="145">
+            &lt;li>&lt;a href="index.html">Home&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="8_menucard.html">Menu card&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="9_events.html">Events&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="10_story.html">Story&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="11_gallery.html">Gallery&lt;/a>&lt;/li>
+            &lt;li class="dropdown active">
+              &lt;a href="1_shortcodes_boxes.html" class="dropdown-toggle">Shortcodes&lt;/a>
+              &lt;ul class="dropdown-menu">
+                &lt;li>&lt;a href="1_shortcodes_boxes.html">Boxes&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="2_shortcodes_toggleable.html">Toggleable&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="3_shortcodes_contact.html">Contact&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="4_buttons_typography.html">Typography&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="5_shortcodes_elements.html">Elements&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="6_images_sliders.html">Sliders&lt;/a>&lt;/li>
+              &lt;/ul>
+            &lt;/li>
+
+            &lt;li>&lt;a href="7_blog.html">Blog&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="12_contact.html">Contact&lt;/a>&lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;!-- /.navbar-collapse -->
+      &lt;/div>
+      &lt;!-- / container -->
+
+      &lt;div class="btm">&lt;/div>
+    &lt;/div>
+
+  &lt;/nav>
+</pre>
+
+<h5 id="flavours">Flavours</h5>
+
+<p>Theme includs 10 flavours. <br>
+  To activate certain flavour just add proper css file.<br>
+  For example to activate "Coffee and Cream": </p>
+
+  <pre class="brush: html">
+    &lt;head>
+    (..)
+    &lt;link rel="stylesheet" type="text/css" href="css/style.css">
+    &lt;link rel="stylesheet" type="text/css" href="flavours/coffeecream/css/coffeecream.css">
+    (..)
+    &lt;/head>
+  </pre>
+
+<p>or "Tacos Locos" : </p>
+
+  <pre class="brush: html">
+    &lt;head>
+    (..)
+    &lt;link rel="stylesheet" type="text/css" href="css/style.css">
+    &lt;link rel="stylesheet" type="text/css" href="flavours/tacos/css/tacos.css">
+    (..)
+    &lt;/head>
+  </pre>
+
+Main style.css (placed in css/ directory) must be always included.<br>
+Second added .css file will change page design.<br>
+Flavours files (images, fonts, etc) are placed in flavours/[flavour_name] directory, for example :
+
+  <pre class="brush: html">
+    &lt;!-- cupcake files -->
+          /flavours/cupcake
+
+    &lt;!-- pizza files -->
+          /flavours/pizza
+  </pre>
+
+
+<h5>Avaiblable Flavours</h5>
+
+<ol>
+  <li>Burger Lover (default)</li>
+  <li>Cupcake Wagon</li>
+  <li>Tacos Locos</li>
+  <li>Seabreeze</li>
+  <li>Ribs & Dogs</li>
+  <li>Big Waffle Connection</li>
+  <li>Bad Ass BBQ</li>
+  <li>Big Smoke BBQ</li>
+  <li>Coffee & Cream</li>
+  <li>Pizza Revelation</li>
+</ol>
+
+<p><img src="img/content/image-1.jpg" alt=" "></p>
+
+
+<br><br>
+
+<h2>Components</h2>
+
+
+<br><br>
+<h5>Special Headers</h5>
+
+<p>
+  Predefined headers you can use by adding special class to header element (there is no difference which tag do you use : h1, h2 or h5),<br>
+  for example :
+</p>
+
+  <pre class="brush:html">
+    &lt;h1 class="hdr1">Example header 1&lt;/h1>
+    &lt;h2 class="hdr2">Example header 2&lt;/h2>
+    &lt;h3 class="hdr3">Example header 3&lt;/h3>
+    &lt;h5 class="hdr4">Example header 4&lt;/h5>
+    &lt;h1 class="hdr5">Example header 5&lt;/h1>
+    &lt;h2 class="hdr6">Example header 6&lt;/h2>
+    &lt;h3 class="hdr7">Example header 7&lt;/h3>
+  </pre>
+
+<br><br>
+<h5>Social Icons</h5>
+
+<p>You can use small, medium or big social icons. <br>
+We provided 24 icons</p>
+
+<p>HTML Markup:</p>
+
+<pre class="brush:html">
+  &lt;!-- Small Icons -->
+  &lt;ul class="soc_list soc-small list-unstyled clearfix">
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Bitbucket">&lt;i class="fa fa-bitbucket">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Dribbble">&lt;i class="fa fa-dribbble">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Dropbox">&lt;i class="fa fa-dropbox">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook">&lt;i class="fa fa-facebook">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Flickr">&lt;i class="fa fa-flickr">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Foursquare">&lt;i class="fa fa-foursquare">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub">&lt;i class="fa fa-github-alt">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Gittip">&lt;i class="fa fa-gittip">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Google+">&lt;i class="fa fa-google-plus">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn">&lt;i class="fa fa-linkedin">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest">&lt;i class="fa fa-pinterest">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Renren">&lt;i class="fa fa-renren">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="RSS">&lt;i class="fa fa-rss">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Skype">&lt;i class="fa fa-skype">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Exchange">&lt;i class="fa fa-stack-exchange">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Overflow">&lt;i class="fa fa-stack-overflow">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Tumblr">&lt;i class="fa fa-tumblr">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Vimeo">&lt;i class="fa fa-vimeo-square">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="VKontakte">&lt;i class="fa fa-vk">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Weibo">&lt;i class="fa fa-weibo">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Xing">&lt;i class="fa fa-xing">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="YouTube">&lt;i class="fa fa-youtube-play">&lt;/i>&lt;/a>&lt;/li>
+  &lt;/ul>
+
+
+  &lt;!-- Medium Icons -->
+
+  &lt;ul class="soc_list soc-medium list-unstyled clearfix">
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Bitbucket">&lt;i class="fa fa-bitbucket">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Dribbble">&lt;i class="fa fa-dribbble">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Dropbox">&lt;i class="fa fa-dropbox">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook">&lt;i class="fa fa-facebook">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Flickr">&lt;i class="fa fa-flickr">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Foursquare">&lt;i class="fa fa-foursquare">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub">&lt;i class="fa fa-github-alt">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Gittip">&lt;i class="fa fa-gittip">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Google+">&lt;i class="fa fa-google-plus">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn">&lt;i class="fa fa-linkedin">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest">&lt;i class="fa fa-pinterest">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Renren">&lt;i class="fa fa-renren">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="RSS">&lt;i class="fa fa-rss">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Skype">&lt;i class="fa fa-skype">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Exchange">&lt;i class="fa fa-stack-exchange">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Overflow">&lt;i class="fa fa-stack-overflow">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Tumblr">&lt;i class="fa fa-tumblr">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Vimeo">&lt;i class="fa fa-vimeo-square">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="VKontakte">&lt;i class="fa fa-vk">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Weibo">&lt;i class="fa fa-weibo">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Xing">&lt;i class="fa fa-xing">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="YouTube">&lt;i class="fa fa-youtube-play">&lt;/i>&lt;/a>&lt;/li>
+  &lt;/ul>
+
+
+  &lt;!-- Big Icons -->
+
+  &lt;ul class="soc_list soc-big list-unstyled clearfix">
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Bitbucket">&lt;i class="fa fa-bitbucket">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Dribbble">&lt;i class="fa fa-dribbble">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Dropbox">&lt;i class="fa fa-dropbox">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook">&lt;i class="fa fa-facebook">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Flickr">&lt;i class="fa fa-flickr">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Foursquare">&lt;i class="fa fa-foursquare">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub">&lt;i class="fa fa-github-alt">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Gittip">&lt;i class="fa fa-gittip">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Google+">&lt;i class="fa fa-google-plus">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn">&lt;i class="fa fa-linkedin">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest">&lt;i class="fa fa-pinterest">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Renren">&lt;i class="fa fa-renren">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="RSS">&lt;i class="fa fa-rss">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Skype">&lt;i class="fa fa-skype">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Exchange">&lt;i class="fa fa-stack-exchange">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Stack Overflow">&lt;i class="fa fa-stack-overflow">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Tumblr">&lt;i class="fa fa-tumblr">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Vimeo">&lt;i class="fa fa-vimeo-square">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="VKontakte">&lt;i class="fa fa-vk">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Weibo">&lt;i class="fa fa-weibo">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="Xing">&lt;i class="fa fa-xing">&lt;/i>&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#" target="_blank" data-toggle="tooltip" data-placement="top" title="YouTube">&lt;i class="fa fa-youtube-play">&lt;/i>&lt;/a>&lt;/li>
+  &lt;/ul>
+
+</pre>
+
+
+<br><br>
+<h5>Awesome Icons</h5>
+
+<p>
+  Awesome Icons Official Page - <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a><br>
+  On page 1_shortcodes_boxes.html you can find example icons.<br>
+  You can choose from 360+ available icons :
+</p>
+
+<p>
+<a href="img/content/icons-list.jpg" target="_blank"><img src="img/content/icons-list-small.jpg" alt=" "></a>
+</p>
+
+<br>
+HTML markup:
+</p>
+
+<pre class="brush:html">
+    &lt;!-- Awesome Icons -->
+    &lt;i class="fa fa-cog">&lt;/i>
+</pre>
+
+<br><br>
+<h5>Tabs</h5>
+
+<p>
+    You can click tabs to swap between content that is divided into logical sections.
+    Remember that each nav-tab item and tab-content item should have unique id (for example #tab-pabe-001 and #tab-pane-002 and #tab-pane-003).<br>
+    HTML markup:
+</p>
+
+    <pre class="brush:html">
+      &lt;!-- TABS -->
+      &lt;div class="tabs">
+        &lt;ul class="nav nav-tabs">
+          &lt;li class="active">&lt;a href="#tab-pane-001" data-toggle="tab">First tab&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#tab-pane-002" data-toggle="tab">Second tab&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#tab-pane-003" data-toggle="tab">Third tab&lt;/a>&lt;/li>
+        &lt;/ul>
+
+        &lt;div class="tab-content">
+          &lt;div class="tab-pane fade in active" id="tab-pane-001">
+            &lt;p>
+              (..)
+            &lt;/p>
+          &lt;/div>
+          &lt;div class="tab-pane fade" id="tab-pane-002">
+            &lt;p>
+              (..)
+            &lt;/p>
+          &lt;/div>
+          &lt;div class="tab-pane fade" id="tab-pane-003">
+            &lt;p>
+              (..)
+            &lt;/p>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+      &lt;!-- !TABS -->
+    </pre>
+
+
+<br><br>
+<h5>Accordion</h5>
+
+<p>
+    Accordion is a vertically stacked list of items. Each item can be "expanded" or "stretched"<br>
+    to reveal the content associated with that item. Please remember that div "panel-group" <br>
+    should have unique id (for example accordion-001), and also each item should have <br>
+    unique id (#collapse-001 and #collapse-002).<br>
+    To open one "accordion panel" just add "in" class to "panel-collapse collapse" element.<br>
+    HTML Markup:
+</p>
+
+   <pre class="brush: html">
+     &lt;!-- ACCORDION -->
+     &lt;div class="accordion">
+       &lt;div class="panel-group" id="accordion-001">
+         &lt;div class="panel panel-default">
+           &lt;div class="panel-heading">
+             &lt;h4 class="strong-header panel-title">
+               &lt;a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-001" href="#collapse-001">
+                 Strategy
+               &lt;/a>
+             &lt;/h4>
+           &lt;/div>
+           &lt;!-- to open panel - just add class "in" -->
+           &lt;div id="collapse-001" class="panel-collapse collapse in">
+             &lt;div class="panel-body">
+               Duis aute irure dolor in a reprehenderit in voluptate velit esse cillum dolore
+               eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident, sunt in
+               culpa qui officia deserunt es mollit anim id est laborum. Sed ut perspiciatis
+               unde omnis iste natus at voluptatem accusantium.
+             &lt;/div>
+           &lt;/div>
+         &lt;/div>
+         &lt;div class="panel panel-default">
+           &lt;div class="panel-heading">
+             &lt;h4 class="strong-header panel-title">
+               &lt;a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-001" href="#collapse-002">
+                 Interactive
+               &lt;/a>
+             &lt;/h4>
+           &lt;/div>
+           &lt;div id="collapse-002" class="panel-collapse collapse">
+             &lt;div class="panel-body">
+               Duis aute irure dolor in a reprehenderit in voluptate velit esse cillum dolore
+               eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident, sunt in
+               culpa qui officia deserunt es mollit anim id est laborum. Sed ut perspiciatis
+               unde omnis iste natus at voluptatem accusantium.
+             &lt;/div>
+           &lt;/div>
+         &lt;/div>
+       &lt;/div>
+     &lt;/div>
+     &lt;!-- !ACCORDION -->
+
+   </pre>
+
+
+
+<br><br>
+<h5>Circle Product Slider</h5>
+
+<p>It is slider with circle food images implemented using flexslider plugin. It uses fade transition, you can put there as many items as you want, just add next li element<br>
+  HTML Markup:
+</p>
+
+
+<pre class="brush:html">
+  &lt;!-- ******************* -->
+  &lt;!-- ** CIRCLE SLIDER ** -->
+
+  &lt;div class="space50px">&lt;/div>
+  &lt;div class="container">
+    &lt;div class="row">
+      &lt;div class="col-md-8">
+        &lt;div class="flexFade flexslider loading-slider text-right">
+          &lt;ul class="slides">
+            &lt;li>
+              &lt;div class="descArea">
+                &lt;h4>Our daily Specials&lt;/h4>
+                &lt;hr>
+                &lt;h5>Burger Lover Special with Twist Fries & Coke&lt;/h5>
+                &lt;p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt
+                &lt;/p>
+                &lt;span class="price">&lt;em>$&lt;/em>8&lt;span>99&lt;/span>&lt;/span>
+
+              &lt;/div>
+              &lt;div class="roundedImg" data-size="320">
+                &lt;img class="media-object" src="images/content/photo-3.jpg" alt=" ">
+              &lt;/div>
+            &lt;/li>
+            &lt;li>
+              [second slide]
+            &lt;/li>
+            &lt;li>
+              [third slide]
+            &lt;/li>
+          &lt;/ul>
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="col-md-4">
+        &lt;h4 class="hdr7">About Us&lt;/h4>
+
+        &lt;div class="roundedImg pull-right" data-size="160">
+          &lt;img class="media-object" src="images/content/photo-5.jpg" alt=" ">
+        &lt;/div>
+        &lt;p class="bigger">
+          Hello Foody! We have traveled countless miles, hundreds of sailing through storms to find out where is the best and freshest food in the world.
+          &lt;br>
+          Ultimately we have brought them to our restaurant to let you enjoy this priceless treasure.&lt;br>&lt;br>
+          Please consider yourself. Good Appetite!&lt;br>
+          Your Chef Team&lt;br>
+        &lt;/p>
+
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class="space50px">&lt;/div>
+</pre>
+
+
+<br><br>
+<h5>Rounded Image</h5>
+
+<p>
+  Just paste img tag inside roundedImg div, and it will be circle shape.
+</p>
+
+<ul>
+  <li><strong>data-size</strong> - it is cicle radius</li>
+</ul>
+
+  <pre class="brush:html">
+    &lt;div class="roundedImg" data-size="54">
+      &lt;img class="media-object" src="images/content/product-small-1.jpg" alt=" ">
+    &lt;/div>
+  </pre>
+
+
+
+<h5>Buttons</h5>
+
+<p>
+  We prepare 2 type of buttons.
+  Example HTML markup:
+</p>
+
+<pre class="brush: html">
+
+&lt;a href="#" class="btn btn-primary btn-sm">order now!&lt;/a>
+
+&lt;input class="btn btn-default" type="submit" value="Submit">
+
+</pre>
+
+
+
+<br><br>
+<h5>prodBox</h5>
+
+<p>
+  This is box to present recommended food products. It is available in 3 types (different paper graphics). Just add type2 or type3 class to change version.
+</p>
+
+
+  <pre class="brush:html">
+    &lt;div class="prodBox pull-left">
+      &lt;div class="frameImg">&lt;img src="images/content/product-1.jpg" alt=" ">&lt;/div>
+
+      &lt;div class="inner">
+        &lt;h4>Burger Lover Classic menu with fries&lt;/h4>
+
+        &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu.
+        &lt;/p>
+        &lt;span class="price">&lt;small>just&lt;/small>&lt;em>$&lt;/em>6&lt;/span>
+        &lt;a href="#" class="btn btn-primary btn-sm">order now!&lt;/a>
+      &lt;/div>
+    &lt;/div>
+    &lt;!-- / prodBox -->
+
+
+    &lt;div class="prodBox type2">
+      &lt;div class="frameImg">&lt;img src="images/content/product-2.jpg" alt=" ">&lt;/div>
+
+      &lt;div class="inner">
+        &lt;h4>Pulled pork with homemade bun&lt;/h4>
+
+        &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius Lorem, consectetur adipisicing elit, sed do eiu.
+        &lt;/p>
+        &lt;span class="price">&lt;small>just&lt;/small>&lt;em>$&lt;/em>4&lt;span>99&lt;/span>&lt;/span>
+        &lt;a href="#" class="btn btn-primary btn-sm">order now!&lt;/a>
+      &lt;/div>
+    &lt;/div>
+    &lt;!-- / prodBox -->
+  </pre>
+
+
+
+<br><br>
+<h5>menuBox</h5>
+
+<p>
+  This is box to present menu from certain category. It is available in 4 types (different paper graphics). Just add type2, type3 or type4 class to change version.
+</p>
+
+
+  <pre class="brush:html">
+    &lt;div class="menuBox type2">
+      &lt;div class="top">
+        &lt;img src="images/content/icon-1.png" alt=" ">
+        &lt;span>Starters&lt;/span>
+      &lt;/div>
+      &lt;div class="inner">
+        &lt;div class="media">
+          &lt;a class="pull-left" href="images/content/product-small-1.jpg" data-rel="prettyPhoto[menu1]">
+            &lt;div class="roundedImg" data-size="54">
+              &lt;img class="media-object" src="images/content/product-small-1.jpg" alt=" ">
+            &lt;/div>
+          &lt;/a>
+
+          &lt;div class="media-body">
+            &lt;span class="title">Fried Scallops&lt;/span>
+
+            &lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p>
+                        &lt;span class="price">
+                          &lt;em>$&lt;/em>7
+                        &lt;/span>
+          &lt;/div>
+        &lt;/div>
+        &lt;!-- / item -->
+        &lt;hr>
+        &lt;div class="media">
+          [second item]
+        &lt;/div>
+        &lt;!-- / item -->
+        &lt;div class="media">
+          [third item]
+        &lt;/div>
+        &lt;!-- / item -->
+      &lt;/div>
+    &lt;/div>
+    &lt;!-- / menuBox -->
+  </pre>
+
+
+
+
+
+
+
+
+
+</div>
+<!-- / subChapter -->
+</section>
+
+
+<section id="css_files_structure">
+  <h3>CSS Files & Structure</h3>
+  <hr class="notop">
+  <p>We've included style.css file, which contains default styles. To enable each flavour you have to add second css file (more details <a href="#flavours">here</a>)</p>
+
+  <div class="subChapter">
+
+    <ol>
+      <li>Bootstrap CSS Framework v.3</li>
+      <li>Font Face</li>
+      <li>General Styles
+        <ul style="margin:0;">
+          <li>typography</li>
+          <li>buttons</li>
+          <li>priceHeader</li>
+          <li>main menu</li>
+          <li>tweet list</li>
+          <li>google map</li>
+          <li>socials links</li>
+          <li>section</li>
+          <li>flexslider</li>
+          <li>prodBox</li>
+          <li>menuBox</li>
+          <li>rounded image</li>
+          <li>eventBox</li>
+          <li>polaroid slider</li>
+          <li>gallery</li>
+          <li>forms</li>
+          <li>footer</li>
+          <li>prettyphoto</li>
+          <li>helpers</li>
+          <li>media queries, adjustments
+            <ul style="margin:0;">
+              <li>@media (min-width: 990px) {}</li>
+              <li>@media (max-width: 990px) {}</li>
+              <li>@media (min-width: 767px) and (max-width: 990px) {}</li>
+              <li>@media (max-width: 767px) {}</li>
+              <li>@media (max-width: 480px) {}</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+
+    If you want to modify or add new styles please find this lines in <strong>style.css</strong> :
+    <br><br>
+
+    <pre class="brush: html">
+    /* *************** */
+    /*  GENERAL STYLES */
+    /* *************** */
+    /* START EDIT HERE */
+    </pre>
+    <br>
+    Below you can add your code.<br><br>
+
+    <p>Main /css/style.css includes "Burger Love" styles<br>
+    Each <strong>FLAVOUR</strong> style (for example flavours/cupcake/css/cupcake.css) overwrite "main styles" with his own.</p>
+
+
+  </div>
+</section>
+
+
+<section id="java_script">
+<h3>Javascript</h3>
+<hr class="notop">
+
+
+<p>All javascripts are placed in folder /js. In main.js file we implement all functions calls.<br>
+  This theme uses following Javascript files:</p>
+
+<ol>
+  <li>Bootstrap v 3 framework (powerful front-end framework for faster and easier web development)</li>
+  <li>jQuery v1.10.2 (A fast javascript library that Foodtruckifies how to traverse HTML documents, handle events, perform animations.)</li>
+  <li>FlexSlider 2</li>
+  <li>GMAP3 Plugin for JQuery v. 5.1.1</li>
+  <li>Arctext.js (A jQuery plugin for curved text)</li>
+  <li>jquery.hoverdir.js v1.1.0</li>
+  <li>jQuery PrettyPhoto</li>
+  <li>BxSlider v4.1.1</li>
+  <li>QueryLoader v.2.8.3 - page loader</li>
+  <li>SmoothScroll v1.2.1</li>
+</ol>
+
+
+<div class="subChapter">
+
+
+<h3>Curved Text (arctext.js)</h3>
+
+<p>
+  You can enable curved text for element by adding "curved" class to it. <br>
+  Remember that &lt;script src="js/jquery.arctext.js">&lt;/script> library should be included.
+  As example there is curved header on fullwidth map.
+  Credits: <a href="http://tympanus.net/codrops/2012/01/24/arctext-js-curving-text-with-css3-and-jquery/">http://tympanus.net/codrops/2012/01/24/arctext-js-curving-text-with-css3-and-jquery/</a>
+</p>
+<lu>
+  <li><strong>data-radius</strong> - it is radius of curve</li>
+  <li><strong>data-direction</strong> - direction of effect</li>
+</lu>
+
+<pre class="brush: html">
+  &lt;h4 class="hdr6 curved" data-radius="600" data-direction="1">Wheres the truck?&lt;/h4>
+</pre>
+
+<p>and js :</p>
+
+<pre class="brush: javascript">
+  jQuery(document).ready(function () {
+
+  	/* rotate text */
+  	if(jQuery().arctext) {
+  		jQuery(".curved").each(function () {
+  			$this = jQuery(this);
+
+  			var radius = $this.data("radius");
+  			var direction = $this.data("direction");
+
+  			if ((validateDataAttr(radius)) && (validateDataAttr(direction))) {
+  				jQuery($this).arctext({
+  					radius: radius,
+  					dir: direction,
+  					// 1: curve is down,
+  					// -1: curve is up
+  					rotate: true
+  					// if true each letter should be rotated.
+  				})
+  			}
+  		})
+  	}
+  })
+
+</pre>
+
+
+
+<h3>Google Map (GMAP3 Plugin)</h3>
+
+ <p>This is google map with custom marker, you can define couple parameters: </p>
+ <ul>
+   <li><strong>data-location</strong> - address to show</li>
+   <li><strong>data-text</strong> - text in bubble overlay</li>
+   <li><strong>data-height</strong> - map height (if undefined height will be 220px)</li>
+   <li><strong>data-offset</strong> - by how many map should be repositioned from marker center point (default -30)</li>
+ </ul>
+
+ <p>It uses gmap3 plugin. <br>
+   Documentation: <a href="http://gmap3.net/">here</a><br>
+   HTML Markup:
+ </p>
+
+ <pre class="brush: html">
+   &lt;div class="googleMap" data-location="Junipers Blvd. 380 Queens, NY 11379, USA" data-text="Junipers Blvd. 380 Queens, NY 11379, USA" data-height="480" data-offset="-80">&lt;/div>
+ </pre>
+<p>You can also provide latitude and longitude (instead exact address):
+
+<pre class="brush: html">
+  &lt;div class="googleMap" data-latitude="52.13" data-longitude="21.135540" data-text="We are here!">&lt;/div>
+</pre>
+
+ <p>All javascript code can be found in js/main.js file:</p>
+
+ <pre class="brush: javascript">
+   function initmap() {
+
+   	jQuery(".googleMap").each(function () {
+   		var atcenter = "";
+   		var $this = jQuery(this);
+   		var location = $this.data("location");
+   		var text = $this.data("text");
+
+   		var offset = -30;
+
+   		if (validateDataAttr($this.data("offset"))) {
+   			offset = $this.data("offset");
+   		}
+
+   		if (validateDataAttr(location)) {
+   (..)
+   }
+ </pre>
+
+
+ <br><br>
+ <h3>Full Product Slider (flexslider)</h3>
+
+ <p>It is fullwidth slider of any content. We use flexsldier plugin. Just paste your content into li tags.<br>
+   Documentation: <a href="http://www.woothemes.com/flexslider/">http://www.woothemes.com/flexslider/</a><br>
+   HTML Markup:
+ </p>
+
+
+  <pre class="brush:html">
+    &lt;!-- ************************* -->
+    &lt;!-- ** FULL PRODUCT SLIDER ** -->
+    &lt;div class="flexFull flexslider loading-slider text-center">
+      &lt;ul class="slides">
+        &lt;li>
+          &lt;div class="container">
+            &lt;img src="images/content/sliderphoto-1.png" alt=" ">
+            [any content]
+          &lt;/div>
+        &lt;/li>
+        &lt;li>
+          &lt;div class="container">
+            &lt;img src="images/content/sliderphoto-1.png" alt=" ">
+            [any content]
+          &lt;/div>
+        &lt;/li>
+      &lt;/ul>
+    &lt;/div>
+    &lt;!-- / flexslider -->
+ </pre>
+
+ <p>And js initialization (js/main.js file),<br>
+   there you can change slider parameters :</p>
+
+ <pre class="brush:javascript">
+   jQuery(window).load(function () {
+
+   	// flexfull slider init
+   	jQuery('.flexslider.flexFull').flexslider({
+   		animation: "slide",              //String: Select your animation type, "fade" or "slide"
+   		easing: "easeInOutExpo",               //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!
+   		// easing types :
+   		// swing, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic,
+   		// easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint,
+   		// easeOutQuint, easeInOutQuint, easeInSine, easeOutSine, easeInOutSine,
+   		// easeInExpo, easeOutExpo, easeInOutExpo, easeInCirc, easeOutCirc,
+   		// easeInOutCirc, easeInElastic, easeOutElastic, easeInOutElastic, easeInBack,
+   		// easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce
+   		direction: "horizontal",        //String: Select the sliding direction, "horizontal" or "vertical"
+   		reverse: false,                 //{NEW} Boolean: Reverse the animation direction
+   		animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+   		smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode
+   		startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
+   		slideshow: false,                //Boolean: Animate slider automatically
+   		slideshowSpeed: 7000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+   		animationSpeed: 1100,            //Integer: Set the speed of animations, in milliseconds
+   		initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
+   		randomize: false,               //Boolean: Randomize slide order
+
+   		// Primary Controls
+   		controlNav: false,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+   		directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
+   		prevText: "Previous",           //String: Set the text for the "previous" directionNav item
+   		nextText: "Next",               //String: Set the text for the "next" directionNav item
+
+   		// Usability features
+   		pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+   		pauseOnHover: true,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+   		touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
+   		video: true,                   //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
+   		useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
+
+   		// Secondary Navigation
+   		keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys
+   		multipleKeyboard: false,        //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
+   		mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
+   		pausePlay: false,               //Boolean: Create pause/play dynamic element
+   		pauseText: 'Pause',             //String: Set the text for the "pause" pausePlay item
+   		playText: 'Play',               //String: Set the text for the "play" pausePlay item
+
+   		// Callback API
+   		start: function () {
+   			jQuery(".flexslider.flexFull").removeClass("loading-slider");
+   		},
+   		before: function () {
+   		},           //Callback: function(slider) - Fires asynchronously with each slider animation
+   		after: function () {
+   		},            //Callback: function(slider) - Fires after each slider animation completes
+   		end: function () {
+   		},              //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
+   		added: function () {
+   		},            //{NEW} Callback: function(slider) - Fires after a slide is added
+   		removed: function () {
+   		}           //{NEW} Callback: function(slider) - Fires after a slide is removed
+   	});
+   })
+ </pre>
+
+
+
+<br><br>
+<h3>prettyPhoto</h3>
+
+
+<p>
+  It's a lightweight customizable lightbox plugin for jQuery. After image clicking fullsize image will show up in popup.<br>
+  To turn on lightbox effect just add data-rel="prettyPhoto[ImageSet1]" parameter to link with fullwidth image.<br>
+  In brackets you can fill in gallery name - photos will show as "set".<br>
+  Link title will shop up as image description.<br>
+  Documentation: <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">here</a></p>
+</p>
+
+<pre class="brush: html">
+&lt;a href="images/content/product-small-6.jpg" data-rel="prettyPhoto[menu3]">
+    &lt;img class="media-object" src="images/content/product-small-6.jpg" alt=" ">
+&lt;/a>
+</pre>
+
+<p>and js : </p>
+
+<pre class="brush: javascript">
+  // init prettyphoto
+ 	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({
+ 		deeplinking: false,
+ 		social_tools: " ",
+ 		hook: 'data-rel',
+ 		animation_speed: 'fast', /* fast/slow/normal */
+ 		slideshow: 5000, /* false OR interval time in ms */
+ 		autoplay_slideshow: false, /* true/false */
+ 		opacity: 0.60, /* Value between 0 and 1 */
+ 		overlay_gallery: false,
+ 		show_title: true, /* true/false */
+ 		allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+ 		counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+ 		theme: 'pp_default', /* pp_default / light_rounded / dark_rounded / light_square / dark_square / facebook */
+ 		horizontal_padding: 20 /* The padding on each side of the picture */
+ 	});
+</pre>
+
+
+
+
+<h3>Polaroid Slider (BXSlider)</h3>
+
+<p>
+  This is simple image slider with polaroid background.<br>
+  Documentation : <a href="http://bxslider.com/">http://bxslider.com/</a><br>
+  To add more images just add next li element with image.<br>
+  HTML Markup:
+</p>
+
+
+<pre class="brush: html">
+  &lt;div class="polaroidSlider pull-right">
+    &lt;img src="images/scotchtape.png" alt=" " class="scotchtape">
+
+    &lt;div class="inner">
+      &lt;ul class="bxslider">
+        &lt;li>&lt;img src="images/content/smallslider-1.jpg" alt=" ">&lt;/li>
+        &lt;li>&lt;img src="images/content/smallslider-1.jpg" alt=" ">&lt;/li>
+        &lt;li>&lt;img src="images/content/smallslider-1.jpg" alt=" ">&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/div>
+  &lt;!-- / polaroidSlider -->
+</pre>
+
+<p>and js : </p>
+
+<pre class="brush: javascript">
+  // init bxslider
+ 	jQuery('.bxslider').bxSlider({
+ 		// GENERAL
+ 		mode: 'horizontal',
+ 		slideSelector: '',
+ 		infiniteLoop: true,
+ 		hideControlOnEnd: false,
+ 		speed: 500,
+ 		easing: null,
+ 		slideMargin: 0,
+ 		startSlide: 0,
+ 		randomStart: false,
+ 		captions: false,
+ 		ticker: false,
+ 		tickerHover: false,
+ 		adaptiveHeight: false,
+ 		adaptiveHeightSpeed: 500,
+ 		video: false,
+ 		useCSS: true,
+ 		preloadImages: 'visible',
+ 		responsive: true,
+
+ 		// TOUCH
+ 		touchEnabled: true,
+ 		swipeThreshold: 50,
+ 		oneToOneTouch: true,
+ 		preventDefaultSwipeX: true,
+ 		preventDefaultSwipeY: false,
+
+ 		// PAGER
+ 		pager: false,
+ 		pagerType: 'full',
+ 		pagerShortSeparator: ' / ',
+ 		pagerSelector: null,
+ 		buildPager: null,
+ 		pagerCustom: null,
+
+ 		// CONTROLS
+ 		controls: true,
+ 		nextText: 'Next',
+ 		prevText: 'Prev',
+ 		nextSelector: null,
+ 		prevSelector: null,
+ 		autoControls: false,
+ 		startText: 'Start',
+ 		stopText: 'Stop',
+ 		autoControlsCombine: false,
+ 		autoControlsSelector: null,
+
+ 		// AUTO
+ 		auto: false,
+ 		pause: 4000,
+ 		autoStart: true,
+ 		autoDirection: 'next',
+ 		autoHover: false,
+ 		autoDelay: 0,
+
+ 		// CAROUSEL
+ 		minSlides: 1,
+ 		maxSlides: 1,
+ 		moveSlides: 0,
+ 		slideWidth: 0,
+
+ 		// CALLBACKS
+ 		onSliderLoad: function () {
+ 		},
+ 		onSlideBefore: function () {
+ 		},
+ 		onSlideAfter: function () {
+ 		},
+ 		onSlideNext: function () {
+ 		},
+ 		onSlidePrev: function () {
+ 		}
+ 	});
+</pre>
+
+<h3>Direction hover aware gallery</h3>
+
+<p>
+This is gallery with overlay, which slides from the direction we are moving with the mouse.<br>
+After clicking on main image lightbox will open with set of predefined images. These images can be paste in hiddenGallery div.<br>
+Credits : <a href="http://tympanus.net/codrops/2012/04/09/direction-aware-hover-effect-with-css3-and-jquery/">http://tympanus.net/codrops/2012/04/09/direction-aware-hover-effect-with-css3-and-jquery/</a><br>
+HTML Markup:
+</p>
+
+
+<pre class="brush: html">
+  &lt;ul class="galleryContainer row">
+    &lt;li class="col-md-3 col-sm-6">
+      &lt;div class="galleryBox">
+        &lt;div class="top">
+          &lt;span>Starters&lt;/span>
+        &lt;/div>
+        &lt;div class="inner">
+          &lt;a href="images/content/product-1.jpg" data-rel="prettyPhoto[gallery1]">
+            &lt;img src="images/content/gallery-01.jpg" alt=" ">
+
+            &lt;div>&lt;span>3 images&lt;/span>&lt;/div>
+          &lt;/a>
+        &lt;/div>
+        &lt;div class="hiddenGallery">
+          &lt;a href="images/content/product-2.jpg" data-rel="prettyPhoto[gallery1]" title="Title goes here">
+            &lt;img src="images/content/product-2.jpg" alt=" ">
+          &lt;/a>
+          &lt;a href="images/content/product-3.jpg" data-rel="prettyPhoto[gallery1]" title="Title goes here">
+            &lt;img src="images/content/product-3.jpg" alt=" ">
+          &lt;/a>
+        &lt;/div>
+      &lt;/div>
+      &lt;!-- / galleryBox -->
+    &lt;/li>
+    &lt;li>
+      [second item]
+    &lt;/li>
+    &lt;li>
+      [third item]
+    &lt;/li>
+    &lt;li>
+      [fourth item]
+    &lt;/li>
+  &lt;/ul>
+</pre>
+
+<p>and js : </p>
+
+<pre class="brush: javascript">
+  // Direction-aware hover effect
+ 	jQuery('.galleryContainer > li .inner ').each(function () {
+ 		jQuery(this).hoverdir({
+ 			speed: 300,
+ 			easing: 'ease',
+ 			hoverDelay: 25,
+ 			inverse: false
+ 		});
+ 	});
+</pre>
+
+
+
+<h3>Loader</h3>
+
+<p>
+  We use QueryLoader v2 - A simple script to create a preloader for images.<br>
+  It is used on onepager, but can be also paste on multipagers.
+  Documentation: <a href="http://www.gayadesign.com/diy/queryloader2-preload-your-images-with-ease/">plugin homepage</a><br>
+  To enable preloading on certain page :<br>
+  <ul>
+    <li>add class "preloader" to body</li>
+    <li>paste empty div with id "ct_preloader" after body</li>
+  </ul>
+
+</p>
+
+<pre class="brush: html">
+  &lt;body class="preloader">
+  &lt;div id="ct_preloader">&lt;/div>
+</pre>
+
+<p>and js:</p>
+
+<pre class="brush: javascript">
+  jQuery(document).ready(function () {
+      jQuery("body.preloader").queryLoader2({
+        backgroundColor: "#fff",	 //Background color of the loader (in hex).
+        barColor: "#4394a3",	 //Background color of the bar (in hex).
+        barHeight: 5,	 //Height of the bar in pixels. Default: 1
+        deepSearch: true,	 //Set to true to find ALL images with the selected elements. If you don't want queryLoader to look in the children, set to false. Default: true.
+        percentage: true,	 //Set to true to enable percentage visualising. Default is false.
+        completeAnimation: "fade", //Set the animation type at the end. Options: "grow" or "fade". Default is "fade".
+        onComplete: function(){
+          jQuery("#ct_preloader").fadeOut(600);
+        }
+      });
+  });
+</pre>
+
+
+<h3>SmoothScroll v1.2.1</h3>
+
+<p>This plugin will add smooth scroll feature to chrome browser. <br>
+  We use it on onepagers.<br>
+  Just include plugin on page :</p>
+
+<pre class="brush: html">
+&lt;script src="../assets/js/SmoothScroll.js">&lt;/script>
+</pre>
+
+
+</div>
+<!-- / subChapter -->
+
+</section>
+<section id="typography">
+  <h3>Typography</h3>
+  <hr class="notop">
+
+  <p>
+    We use google font service to include fonts or font face sets.
+  </p>
+
+  <ol class="rows2">
+    <li><strong>Burger Lover (default)</strong><br>
+      - geared slab regular<br>
+      - geared slab bold<br>
+      - aleo bold<br>
+      - aleo regular<br>
+    </li>
+    <li><strong>Cupcake Wagon</strong><br>
+      - Grand Hotel<br>
+      - Patua One<br>
+    </li>
+    <li><strong>Tacos Locos</strong><br>
+      - El Rio Lobo<br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Seabreeze</strong><br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Ribs & Dogs</strong><br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Big Waffle Connection</strong><br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Bad Ass BBQ</strong><br>
+      - Carnivalee Freakshow<br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Big Smoke BBQ</strong><br>
+      - Chunk Five<br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Coffee & Cream</strong><br>
+      - Grand Hotel<br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+    <li><strong>Pizza Revelation</strong><br>
+      - Lobster<br>
+      - Kaushan Script<br>
+      - Bree Serif<br>
+    </li>
+  </ol>
+  <div class="clear"></div>
+
+
+  <p>Credits:<br>
+  <a href="http://www.losttype.com/font/?name=geared">Geared Font</a><br>
+  <a href="http://fontfabric.com/aleo-free-font/">Aleo Font</a><br>
+    <a href="http://www.google.com/fonts/specimen/Grand+Hotel">Grand Hotel Font</a><br>
+    <a href="http://www.google.com/fonts/specimen/Patua+One">Patua One Font</a><br>
+    <a href="http://www.urbanfonts.com/fonts/El_Rio_Lobo.htm">El Rio Lobo Font</a><br>
+    <a href="http://www.google.com/fonts/specimen/Kaushan+Script">Kaushan Script Font</a><br>
+    <a href="http://www.google.com/fonts/specimen/Bree+Serif">Bree Serif Font</a><br>
+    <a href="http://www.fontspace.com/livin-hell/carnivalee-freakshow">Carnivalee Freakshow Font</a><br>
+    <a href="http://www.google.com/fonts/specimen/Lobster">Lobster Font</a><br>
+    <a href="http://www.fontsquirrel.com/fonts/ChunkFive">Chunk Five Font</a><br>
+  </p>
+
+
+</section>
+<section id="psd_files">
+  <h3>PSD Files</h3>
+  <hr class="notop">
+
+  <p>There are 10 PSD files included in the project. </p>
+
+  <ul>
+    <li>01_TR_FT_BurgerLover.psd</li>
+    <li>02_TR_FT_CupcakeWagon.psd</li>
+    <li>03_TR_FT_TacosLocos_final.psd</li>
+    <li>04_TR_FT_Seabreeze_final.psd</li>
+    <li>05_TR_FT_RibsnDogs_final.psd</li>
+    <li>06_TR_FT_BigWaffleConnection.psd</li>
+    <li>07_TR_FT_BadAssBBQ.psd</li>
+    <li>08_TR_FT_BigSmoke BBQ.psd</li>
+    <li>09_TR_FT_Coffee & Cream.psd</li>
+    <li>10_TR_FT_Pizza Revelation.psd</li>
+  </ul>
+
+
+  <p>Each PSD file is of course layered, layers are groupped into directories.
+    If you'd like to change anything in the page layout, please put jpg/png image in HTML/img directory.</p>
+
+
+</section>
+
+<section id="forms"><h3>Contact Form</h3>
+  <hr class="notop">
+
+  <p>Template comes with ready to use: <br>
+    <ul>
+      <li>Contact Form</li>
+      <li>Newsletter Form</li>
+    </ul>
+
+  <p>
+    All needed files are in /form directory.<br>
+    Remember to include &lt;script src="form/js/form.js">&lt;/script> on page.<br>
+    To <strong>configure</strong> form just edit form/form.php and change e-mails to your own :
+  </p>
+
+  <pre class="brush: html">
+    $to = "mail@example.com";
+    $from = "mail@example.com";
+  </pre>
+
+  <p>That's it!</p>
+
+
+  <h5>Contact Form</h5>
+
+  <p>HTML Markup:</p>
+
+  <pre class="brush: html">
+
+    &lt;form class="simpleForm" action="form/form.php" method="post">
+       &lt;fieldset>
+         &lt;div class="form-group">
+           &lt;label>Your name&lt;/label>
+           &lt;input type="text" class="form-control" name="field_[]" placeholder="enter your name">
+         &lt;/div>
+         &lt;div class="form-group">
+           &lt;label>E-mail address&lt;/label>
+           &lt;input type="email" required class="form-control" name="email" placeholder="enter your e-mail address">
+         &lt;/div>
+         &lt;div class="form-group">
+           &lt;label>Your message&lt;/label>
+           &lt;textarea class="form-control" rows="5" name="field_[]" placeholder="type your message">&lt;/textarea>
+         &lt;/div>
+         &lt;input type="hidden" name="msg_subject" value="Contact Form">
+         &lt;input type="hidden" name="field_[]" value=" ">
+         &lt;input class="btn btn-default" type="submit" value="Submit">
+       &lt;/fieldset>
+     &lt;/form>
+     &lt;div class="successMsg" style="display:none;">
+        Message has been sent successfully!
+     &lt;/div>
+     &lt;div class="errorMsg" style="display:none;">
+       An error occurred, please try again later.
+     &lt;/div>
+  </pre>
+
+  <p><strong>How to add more fields to form ?</strong></p>
+  <p>Just add another form-group section,<br>
+    for example additional phone and fax : </p>
+
+  <pre class="brush: html">
+    &lt;div class="form-group">
+      &lt;label>Your Phone&lt;/label>
+      &lt;input type="text" class="form-control" name="field_[]" placeholder="enter your phone">
+    &lt;/div>
+    &lt;div class="form-group">
+      &lt;label>Your Fax&lt;/label>
+      &lt;input type="text" class="form-control" name="field_[]" placeholder="enter your fax">
+    &lt;/div>
+    </pre>
+
+
+  <h5>Newsletter Form</h5>
+
+  <p>HTML Markup:</p>
+
+  <pre class="brush: html">
+    &lt;form class="newsletterForm simpleForm" action="form/form.php" method="post">
+      &lt;fieldset>
+        &lt;div class="form-group">
+          &lt;input class="form-control" type="email" name="email" required placeholder="enter your e-mail address">
+        &lt;/div>
+        &lt;input type="hidden" name="msg_subject" value="New Newsletter subscription">
+        &lt;input type="hidden" name="field_[]" value=" ">
+        &lt;input class="btn btn-default" type="submit" value="Submit">
+      &lt;/fieldset>
+    &lt;/form>
+    &lt;div class="successMsg" style="display:none;">
+       Your e-mail has been added to our list!
+    &lt;/div>
+    &lt;div class="errorMsg" style="display:none;">
+      Error, please try again later.
+    &lt;/div>
+  </pre>
+
+  <p>Options (can be changed in HTML) : </p>
+  <ul>
+    <li><strong>Mail Subject</strong> - just change value in : &lt;input type="hidden" name="msg_subject" value="Contact Form"></li>
+    <li><strong>Success Message</strong> - change successMsg div content (below form)</li>
+    <li><strong>Error Message</strong> - change errorMsg div content (below form)</li>
+  </ul>
+
+</section>
+
+<section id="tweets"><h3>Twitter Feed</h3>
+  <hr class="notop">
+
+  <p>This is live twitter feed. This plugin will grab your latest tweets and displated it on page.
+  <br>
+  <strong>Configuration: </strong> - just edit twitter/config.php file :
+  </p>
+
+  <pre class="brush: html">
+  $config = array(
+  	'username' => "XXX", //username
+  	'limit' => 3, //how many tweets we would like to display?
+  	'with_replies' => true, //show replies? true or false
+  	'oauth_access_token' => 'TOKEN',
+  	'oauth_access_token_secret' => 'TOKEN_SECRET',
+  	'consumer_key' => 'KEY',
+  	'consumer_secret' => 'KEY_SECRET',
+  );
+  </pre>
+
+  <p><strong>Where can I get these keys, tokens, etc ?</strong></p>
+
+  <p>
+  Twitter API requires authentication to display tweets from your account.<br>
+  To twiiter feed work you need to create the 'application'<br>
+  and generate 4 special keys for your twitter account via <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> :<br>
+  - Consumer key (key)<br>
+  - Consumer secret (secret)<br>
+  - Access token (token)<br>
+  - Access token secret (token_secret)<br>
+  </p>
+
+  <p>Video tutorial : "How to create Twitter App" <br>
+  <a href="http://vimeo.com/60891535">http://vimeo.com/60891535</a>
+  </p>
+
+</section>
+
+
+<section id="sources_credits">
+  <h3>Sources & Credits</h3>
+  <hr class="notop">
+
+  <p>The following sources and files have been used to build up this theme</p>
+
+  <ul>
+    <li>Twitter Bootstrap - <a href="http://getbootstrap.com/">http://twitter.github.com/bootstrap/</a></li>
+    <li>jQuery - <a href="http://www.jquery.com">http://www.jquery.com</a></li>
+  </ul>
+  <br><br>
+
+  <p>
+    Once again, thank you so much for purchasing this theme.
+    If you have any questions, feel free to email me via my user page <a href="http://themeforest.net/user/createit-pl">contact form</a>.
+
+  </p>
+
+</section>
+
+
+</div>
+
+<script type="text/javascript" src="syntaxh/js/shCore.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushJScript.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushCss.js"></script>
+<script type="text/javascript" src="syntaxh/js/shBrushXml.js"></script>
+
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+</body>
+</html>
