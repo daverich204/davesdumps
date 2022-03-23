@@ -23,9 +23,9 @@ function initmap() {
 			},
 			marker:{
 			  values:[
-			    {latLng:[48.8620722, 2.352047], data:"Junipers Blvd. 380 Queens, NY 11379, USA", options:{icon: icon}},
-			    {address:"86000 Poitiers, France", data:"Junipers Blvd. 380 Queens, NY 11379, USA", options:{icon: icon}},
-			    {address:"66000 Perpignan, France", data:"Junipers Blvd. 380 Queens, NY 11379, USA", options:{icon: icon}}
+			    {latLng:[49.8218114, -97.1449067], data:"Daves Dumps Truck #1", options:{icon: icon}},
+			    // {address:"86000 Poitiers, France", data:"Junipers Blvd. 380 Queens, NY 11379, USA", options:{icon: icon}},
+			    // {address:"66000 Perpignan, France", data:"Junipers Blvd. 380 Queens, NY 11379, USA", options:{icon: icon}}
 			  ],
 			  options:{
 			    draggable: false
@@ -202,7 +202,7 @@ function loadScript() {
 	"use strict";
 	var script = document.createElement('script');
 	script.type = 'text/javascript';
-	script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAYTLFgKDw12Y3CAaOdIOidNEQ93gHbwno&callback=initmap';
+	script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDVmfKlOvf2ch8FfvtBll-b99aJKWsuEq0&callback=initmap';
 	document.body.appendChild(script);
 }
 
